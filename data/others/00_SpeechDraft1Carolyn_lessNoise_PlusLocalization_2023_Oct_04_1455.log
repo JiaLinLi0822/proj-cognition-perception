@@ -1,0 +1,132 @@
+1.7963 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['pyo'] (in that order).
+9.7557 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7ff3ad0bba90>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7ff3ca535a20>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+9.7560 	EXP 	window1: mouseVisible = True
+9.7561 	EXP 	window1: recordFrameIntervals = False
+9.9216 	EXP 	window1: recordFrameIntervals = True
+10.1052 	EXP 	window1: recordFrameIntervals = False
+10.7965 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Press space to begin', units='height', win=Window(...), wrapWidth=1)
+10.8395 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='text_3', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.8606 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_5', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.8674 	EXP 	Created fixCross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.075, italic=False, languageStyle='LTR', name='fixCross', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+10.8711 	EXP 	Created fixCross2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.075, italic=False, languageStyle='LTR', name='fixCross2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+10.8888 	EXP 	Created answerPrompt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='answerPrompt', opacity=1, ori=0.0, pos=array([0.  , 0.15]), rgb=UNKNOWN, text='Type the word you heard:', units='height', win=Window(...), wrapWidth=1)
+10.9223 	EXP 	Created stretchBreakTxrt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='stretchBreakTxrt', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.9446 	EXP 	Created fixCross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.075, italic=False, languageStyle='LTR', name='fixCross', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+10.9481 	EXP 	Created fixCross2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.075, italic=False, languageStyle='LTR', name='fixCross2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+10.9530 	EXP 	Created answerPrompt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='answerPrompt', opacity=1, ori=0.0, pos=array([0.  , 0.15]), rgb=UNKNOWN, text='Type the word you heard:', units='height', win=Window(...), wrapWidth=1)
+11.0313 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_4', opacity=1, ori=0.0, pos=array([ 0. , -0.2]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.0348 	EXP 	Created prepFixTxt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.075, italic=False, languageStyle='LTR', name='prepFixTxt', opacity=1, ori=0.0, pos=array([ 0.  , -0.15]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+11.0382 	EXP 	Created prepFixTxt_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.075, italic=False, languageStyle='LTR', name='prepFixTxt_2', opacity=1, ori=0.0, pos=array([ 0.  , -0.15]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+11.0406 	EXP 	Created respPromptLocal = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='respPromptLocal', opacity=1, ori=0.0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.0640 	EXP 	window1: mouseVisible = True
+11.0757 	EXP 	Created slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelHeight=0.05, labelWrapWidth=None, labels=None, name='slider', opacity=None, pos=(0, -0.4), readOnly=False, self=UNKNOWN, size=(1.75, 0.1), startValue=None, style=method-wrapper(...), styleTweaks=method-wrapper(...), ticks=array([1, 2]), units='height', win=Window(...))
+11.1265 	EXP 	Created text_7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_7', opacity=1, ori=0.0, pos=array([ 0. , -0.2]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.1300 	EXP 	Created prepFixTxt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.075, italic=False, languageStyle='LTR', name='prepFixTxt', opacity=1, ori=0.0, pos=array([ 0.  , -0.15]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+11.1334 	EXP 	Created prepFixTxt_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.075, italic=False, languageStyle='LTR', name='prepFixTxt_3', opacity=1, ori=0.0, pos=array([ 0.  , -0.15]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+11.1375 	EXP 	Created grating = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, interpolate=True, mask='gauss', maskParams=None, name='grating', opacity=1, ori=0.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([0.02, 0.02]), size=array([50., 50.]), tex='sin', texRes=128.0, units='pix', win=Window(...))
+11.1395 	EXP 	Created respPromptLocal = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='respPromptLocal', opacity=1, ori=0.0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.1494 	EXP 	window1: mouseVisible = True
+11.1608 	EXP 	Created slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelHeight=0.05, labelWrapWidth=None, labels=None, name='slider', opacity=None, pos=(0, -0.4), readOnly=False, self=UNKNOWN, size=(1.75, 0.1), startValue=None, style=method-wrapper(...), styleTweaks=method-wrapper(...), ticks=array([1, 2]), units='height', win=Window(...))
+11.1901 	EXP 	Created exitTxt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='exitTxt', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.4048 	EXP 	getAnswer: autoLog = True
+12.4048 	EXP 	getAnswer: autoLog = True
+12.4048 	EXP 	slider: autoLog = True
+12.4048 	EXP 	slider: markerPos = None
+12.4048 	EXP 	slider: rating = None
+12.4048 	EXP 	slider: markerPos = None
+12.4048 	EXP 	slider: contrast = 1.0
+12.4048 	EXP 	slider: autoLog = True
+12.4048 	EXP 	slider: styleTweaks = []
+12.4048 	EXP 	slider: style = 'slider'
+12.4048 	EXP 	slider: styleTweaks = []
+12.4048 	EXP 	slider: autoLog = True
+12.4048 	EXP 	slider: markerPos = None
+12.4048 	EXP 	slider: rating = None
+12.4048 	EXP 	slider: markerPos = None
+12.4048 	EXP 	slider: contrast = 1.0
+12.4048 	EXP 	slider: autoLog = True
+12.4048 	EXP 	slider: styleTweaks = []
+12.4048 	EXP 	slider: style = 'slider'
+12.4048 	EXP 	slider: styleTweaks = []
+12.4716 	EXP 	text_2: autoDraw = True
+1651.0135 	DATA 	Keypress: space
+1651.1399 	EXP 	text_2: autoDraw = False
+1651.1399 	EXP 	text_3: autoDraw = True
+1681.4755 	EXP 	Imported practiceForSpeech_CM_102722.xlsx as conditions, 2 conditions, 8 params
+1681.4762 	EXP 	Created sequence: sequential, trialTypes=2, nReps=1, seed=None
+1681.4767 	EXP 	New trial (rep=0, index=0): {'Audio_Only_Files': 'ash.wav', 'Video_Files': 'ash.mpg', 'Original_Word_List': 'ash', 'noiseLevelCode': 1, 'conditionCodes': 'A', 'noiseLevelFile1': 'Pink_Noise_1_1.wav', 'noiseLevelFile2': 'Pink_Noise_1_2.wav', 'InstrTextVar': 'This is an example of an\n\nAUDIO trial'}
+1681.4901 	DATA 	Keypress: space
+1681.5066 	EXP 	text_3: autoDraw = False
+1681.5066 	EXP 	text_5: text = 'This is an example of an\n\nAUDIO trial'
+1681.5066 	EXP 	text_5: autoDraw = True
+1682.4748 	EXP 	window1: mouseVisible = False
+1682.4903 	EXP 	text_5: autoDraw = False
+1682.4903 	EXP 	fixCross: autoDraw = True
+1684.7948 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='ash.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+1686.5223 	EXP 	Set  sound=C
+1686.5304 	EXP 	Set  sound=[[ 0.00000000e+00  0.00000000e+00]
+ [-3.05175781e-05  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00]
+ ...
+ [ 7.32421875e-04  7.93457031e-04]
+ [ 6.71386719e-04  3.66210938e-04]
+ [ 5.79833984e-04  6.10351562e-05]]
+1686.6345 	EXP 	window1: mouseVisible = False
+1686.6374 	EXP 	Sound  started
+1686.6569 	EXP 	fixCross: autoDraw = False
+1686.6569 	EXP 	movieToShow: autoLog = True
+1686.6569 	EXP 	movieToShow: movie = 'ash.mpg'
+1686.6569 	EXP 	movieToShow: size = array([0., 0.])
+1686.6569 	EXP 	movieToShow: ori = 0.0
+1686.6569 	EXP 	movieToShow: autoDraw = True
+1686.6569 	EXP 	fixCross2: autoDraw = True
+1688.0237 	EXP 	Set movieToShow finished
+1688.0405 	EXP 	movieToShow: autoDraw = False
+1688.0405 	EXP 	fixCross2: autoDraw = False
+1688.0405 	EXP 	answerPrompt: autoDraw = True
+1688.0405 	EXP 	getAnswer: autoDraw = True
+1691.6437 	DATA 	Keypress: a
+1691.9008 	DATA 	Keypress: s
+1692.8665 	DATA 	Keypress: h
+1694.3833 	DATA 	Keypress: return
+1694.3946 	EXP 	New trial (rep=0, index=1): {'Audio_Only_Files': 'ash.wav', 'Video_Files': 'ash.mpg', 'Original_Word_List': 'ash', 'noiseLevelCode': 1, 'conditionCodes': 'AV', 'noiseLevelFile1': 'Pink_Noise_1_1.wav', 'noiseLevelFile2': 'Pink_Noise_1_2.wav', 'InstrTextVar': 'This is an example of an\n\nAUDIO + VIDEO  trial'}
+1694.4235 	EXP 	answerPrompt: autoDraw = False
+1694.4235 	EXP 	getAnswer: autoDraw = False
+1694.4235 	EXP 	text_5: text = 'This is an example of an\n\nAUDIO + VIDEO  trial'
+1694.4235 	EXP 	text_5: autoDraw = True
+1695.4075 	EXP 	window1: mouseVisible = False
+1695.4236 	EXP 	text_5: autoDraw = False
+1695.4236 	EXP 	fixCross: autoDraw = True
+1696.6579 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='ash.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+1696.7909 	EXP 	Set  sound=[[ 0.00000000e+00  0.00000000e+00]
+ [-3.05175781e-05  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00]
+ ...
+ [ 7.32421875e-04  7.93457031e-04]
+ [ 6.71386719e-04  3.66210938e-04]
+ [ 5.79833984e-04  6.10351562e-05]]
+1696.8953 	EXP 	window1: mouseVisible = False
+1696.8983 	EXP 	Sound  stopped
+1696.8987 	EXP 	Sound  started
+1696.9234 	EXP 	fixCross: autoDraw = False
+1696.9234 	EXP 	movieToShow: autoLog = True
+1696.9234 	EXP 	movieToShow: movie = 'ash.mpg'
+1696.9234 	EXP 	movieToShow: size = array([360., 240.])
+1696.9234 	EXP 	movieToShow: ori = 0.0
+1696.9234 	EXP 	movieToShow: autoDraw = True
+1696.9234 	EXP 	fixCross2: autoDraw = True
+1698.2904 	EXP 	Set movieToShow finished
+1698.3090 	EXP 	movieToShow: autoDraw = False
+1698.3090 	EXP 	fixCross2: autoDraw = False
+1698.3090 	EXP 	answerPrompt: autoDraw = True
+1698.3090 	EXP 	getAnswer: autoDraw = True
+1702.3309 	DATA 	Keypress: a
+1702.8141 	DATA 	Keypress: s
+1703.3969 	DATA 	Keypress: h
+1706.8426 	DATA 	Keypress: return
+1706.8566 	EXP 	answerPrompt: autoDraw = False
+1706.8566 	EXP 	getAnswer: autoDraw = False
+1706.8566 	EXP 	stretchBreakTxrt: text = 'The rest of the task will be similar to this! It will take approximately 15 minutes to complete, so please take a break to stretch now.\n\nPress space when you are ready to begin.'
+1706.8566 	EXP 	stretchBreakTxrt: autoDraw = True
+1782.7276 	DATA 	Keypress: escape
+1783.2632 	EXP 	window1: mouseVisible = True

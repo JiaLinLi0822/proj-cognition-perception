@@ -1,0 +1,328 @@
+1.2908 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['pyo'] (in that order).
+13.5580 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f8791bb9a90>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f87aeae3a20>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+13.5583 	EXP 	window1: mouseVisible = True
+13.5583 	EXP 	window1: recordFrameIntervals = False
+13.7239 	EXP 	window1: recordFrameIntervals = True
+13.9075 	EXP 	window1: recordFrameIntervals = False
+14.4458 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Press space to begin', units='height', win=Window(...), wrapWidth=1)
+14.4889 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='text_3', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.5098 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_5', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.5169 	EXP 	Created fixCross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.075, italic=False, languageStyle='LTR', name='fixCross', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.5209 	EXP 	Created fixCross2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.075, italic=False, languageStyle='LTR', name='fixCross2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.5394 	EXP 	Created answerPrompt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='answerPrompt', opacity=1, ori=0.0, pos=array([0.  , 0.15]), rgb=UNKNOWN, text='Type the word you heard:', units='height', win=Window(...), wrapWidth=1)
+14.5742 	EXP 	Created stretchBreakTxrt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='stretchBreakTxrt', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.5975 	EXP 	Created fixCross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.075, italic=False, languageStyle='LTR', name='fixCross', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.6010 	EXP 	Created fixCross2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.075, italic=False, languageStyle='LTR', name='fixCross2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.6062 	EXP 	Created answerPrompt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='answerPrompt', opacity=1, ori=0.0, pos=array([0.  , 0.15]), rgb=UNKNOWN, text='Type the word you heard:', units='height', win=Window(...), wrapWidth=1)
+14.6879 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_4', opacity=1, ori=0.0, pos=array([ 0. , -0.2]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.6915 	EXP 	Created prepFixTxt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.075, italic=False, languageStyle='LTR', name='prepFixTxt', opacity=1, ori=0.0, pos=array([ 0.  , -0.15]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.6950 	EXP 	Created prepFixTxt_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.075, italic=False, languageStyle='LTR', name='prepFixTxt_2', opacity=1, ori=0.0, pos=array([ 0.  , -0.15]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.6974 	EXP 	Created respPromptLocal = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='respPromptLocal', opacity=1, ori=0.0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.7307 	EXP 	window1: mouseVisible = True
+14.7426 	EXP 	Created slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelHeight=0.05, labelWrapWidth=None, labels=None, name='slider', opacity=None, pos=(0, -0.4), readOnly=False, self=UNKNOWN, size=(1.75, 0.1), startValue=None, style=method-wrapper(...), styleTweaks=method-wrapper(...), ticks=array([1, 2]), units='height', win=Window(...))
+14.7952 	EXP 	Created text_7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_7', opacity=1, ori=0.0, pos=array([ 0. , -0.2]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.7988 	EXP 	Created prepFixTxt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.075, italic=False, languageStyle='LTR', name='prepFixTxt', opacity=1, ori=0.0, pos=array([ 0.  , -0.15]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.8024 	EXP 	Created prepFixTxt_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.075, italic=False, languageStyle='LTR', name='prepFixTxt_3', opacity=1, ori=0.0, pos=array([ 0.  , -0.15]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.8064 	EXP 	Created grating = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, interpolate=True, mask='gauss', maskParams=None, name='grating', opacity=1, ori=0.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([0.02, 0.02]), size=array([50., 50.]), tex='sin', texRes=128.0, units='pix', win=Window(...))
+14.8084 	EXP 	Created respPromptLocal = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='respPromptLocal', opacity=1, ori=0.0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.8185 	EXP 	window1: mouseVisible = True
+14.8300 	EXP 	Created slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelHeight=0.05, labelWrapWidth=None, labels=None, name='slider', opacity=None, pos=(0, -0.4), readOnly=False, self=UNKNOWN, size=(1.75, 0.1), startValue=None, style=method-wrapper(...), styleTweaks=method-wrapper(...), ticks=array([1, 2]), units='height', win=Window(...))
+14.8509 	EXP 	Created exitTxt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='exitTxt', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.9935 	EXP 	getAnswer: autoLog = True
+14.9935 	EXP 	getAnswer: autoLog = True
+14.9935 	EXP 	slider: autoLog = True
+14.9935 	EXP 	slider: markerPos = None
+14.9935 	EXP 	slider: rating = None
+14.9935 	EXP 	slider: markerPos = None
+14.9935 	EXP 	slider: contrast = 1.0
+14.9935 	EXP 	slider: autoLog = True
+14.9935 	EXP 	slider: styleTweaks = []
+14.9935 	EXP 	slider: style = 'slider'
+14.9935 	EXP 	slider: styleTweaks = []
+14.9935 	EXP 	slider: autoLog = True
+14.9935 	EXP 	slider: markerPos = None
+14.9935 	EXP 	slider: rating = None
+14.9935 	EXP 	slider: markerPos = None
+14.9935 	EXP 	slider: contrast = 1.0
+14.9935 	EXP 	slider: autoLog = True
+14.9935 	EXP 	slider: styleTweaks = []
+14.9935 	EXP 	slider: style = 'slider'
+14.9935 	EXP 	slider: styleTweaks = []
+15.0736 	EXP 	text_2: autoDraw = True
+16.9135 	DATA 	Keypress: space
+16.9240 	EXP 	text_2: autoDraw = False
+16.9240 	EXP 	text_3: autoDraw = True
+19.3505 	EXP 	Imported practiceForSpeech_CM_102722.xlsx as conditions, 2 conditions, 8 params
+19.3512 	EXP 	Created sequence: sequential, trialTypes=2, nReps=0, seed=None
+19.3698 	DATA 	Keypress: space
+19.3903 	EXP 	text_3: autoDraw = False
+19.3903 	EXP 	stretchBreakTxrt: text = 'The rest of the task will be similar to this! It will take approximately 15 minutes to complete, so please take a break to stretch now.\n\nPress space when you are ready to begin.'
+19.3903 	EXP 	stretchBreakTxrt: autoDraw = True
+20.0578 	EXP 	Imported /Users/shamslab/Desktop/CM_SpeechTask_Mach2_102422/0_speechCondFileFewerNoise.csv as conditions, 120 conditions, 7 params
+20.0586 	EXP 	Created sequence: random, trialTypes=120, nReps=0, seed=None
+20.0711 	DATA 	Keypress: space
+20.0903 	EXP 	stretchBreakTxrt: autoDraw = False
+20.1736 	EXP 	text_4: autoDraw = True
+28.5410 	EXP 	window1: mouseVisible = False
+28.5552 	EXP 	Imported localizationExp_baseConditionsOneChannel.csv as conditions, 7 conditions, 9 params
+28.5557 	EXP 	Created sequence: fullRandom, trialTypes=7, nReps=8, seed=None
+28.5562 	EXP 	New trial (rep=0, index=0): OrderedDict([('targetSpeakerName', 'center'), ('targetSpeakerEccen', 0.0), ('targetSpkrChannel', 6), ('targetSpkrSound', 'ch1Sound_localizationTask.wav'), ('targetVisualDegrees', 0.0), ('visStimLoc', '(952, 878)'), ('visStimLoc2', '(-8,-202)'), ('visStimW', 0), ('visStimH', -338)])
+28.5565 	EXP 	window1: mouseVisible = False
+28.5617 	DATA 	Keypress: space
+28.5735 	EXP 	text_4: autoDraw = False
+28.5735 	EXP 	prepFixTxt: autoDraw = True
+29.5577 	EXP 	window1: mouseVisible = False
+29.6900 	EXP 	prepFixTxt: autoDraw = False
+29.6900 	EXP 	prepFixTxt_2: autoDraw = True
+30.5769 	EXP 	window1: mouseVisible = True
+30.6071 	EXP 	prepFixTxt_2: autoDraw = False
+30.6071 	EXP 	respPromptLocal: text = 'Where was the sound?'
+30.6071 	EXP 	slider: markerPos = None
+30.6071 	EXP 	slider: markerPos = None
+30.6071 	EXP 	slider: rating = None
+30.6071 	EXP 	respPromptLocal: autoDraw = True
+30.6071 	EXP 	slider: autoDraw = True
+37.4095 	DATA 	Mouse: Left button down, pos=(789,133)
+37.4240 	EXP 	slider: markerPos = 1.4095238095238094
+37.4404 	EXP 	slider: markerPos = 1.4095238095238094
+37.4571 	EXP 	slider: markerPos = 1.4095238095238094
+37.4738 	EXP 	slider: markerPos = 1.4095238095238094
+37.4905 	EXP 	slider: markerPos = 1.4095238095238094
+37.4928 	DATA 	Mouse:  Left button up, pos=(789,133)
+37.5082 	EXP 	slider: markerPos = 1.4095238095238094
+37.5082 	EXP 	slider: rating = 1.4095238095238094
+37.5125 	EXP 	window1: mouseVisible = False
+37.5128 	EXP 	New trial (rep=0, index=1): OrderedDict([('targetSpeakerName', 'farRight'), ('targetSpeakerEccen', 19.1), ('targetSpkrChannel', 4), ('targetSpkrSound', 'ch1Sound_localizationTask.wav'), ('targetVisualDegrees', 19.1), ('visStimLoc', '(1237, 878)'), ('visStimLoc2', '(277,-202)'), ('visStimW', 285), ('visStimH', -338)])
+37.5131 	EXP 	window1: mouseVisible = False
+37.5238 	EXP 	respPromptLocal: autoDraw = False
+37.5238 	EXP 	slider: autoDraw = False
+37.5238 	EXP 	prepFixTxt: autoDraw = True
+38.5077 	EXP 	window1: mouseVisible = False
+38.6238 	EXP 	prepFixTxt: autoDraw = False
+38.6238 	EXP 	prepFixTxt: autoDraw = False
+38.6238 	EXP 	prepFixTxt_2: autoDraw = True
+39.5313 	EXP 	window1: mouseVisible = True
+39.5568 	EXP 	prepFixTxt_2: autoDraw = False
+39.5568 	EXP 	respPromptLocal: text = 'Where was the sound?'
+39.5568 	EXP 	slider: markerPos = None
+39.5568 	EXP 	slider: markerPos = None
+39.5568 	EXP 	slider: rating = None
+39.5568 	EXP 	respPromptLocal: autoDraw = True
+39.5568 	EXP 	slider: autoDraw = True
+40.7427 	DATA 	Mouse: Left button down, pos=(1291,110)
+40.7570 	EXP 	slider: markerPos = 1.6751322751322753
+40.7739 	EXP 	slider: markerPos = 1.6751322751322753
+40.7906 	EXP 	slider: markerPos = 1.6751322751322753
+40.8071 	EXP 	slider: markerPos = 1.6751322751322753
+40.8237 	EXP 	slider: markerPos = 1.6751322751322753
+40.8405 	EXP 	slider: markerPos = 1.6751322751322753
+40.8570 	EXP 	slider: markerPos = 1.6751322751322753
+40.8644 	DATA 	Mouse:  Left button up, pos=(1290,110)
+40.8739 	EXP 	slider: markerPos = 1.6746031746031746
+40.8907 	EXP 	slider: markerPos = 1.6746031746031746
+40.8907 	EXP 	slider: rating = 1.6746031746031746
+40.8946 	EXP 	window1: mouseVisible = False
+40.8949 	EXP 	New trial (rep=0, index=2): OrderedDict([('targetSpeakerName', 'farLeft'), ('targetSpeakerEccen', -19.1), ('targetSpkrChannel', 5), ('targetSpkrSound', 'ch1Sound_localizationTask.wav'), ('targetVisualDegrees', -19.1), ('visStimLoc', '(667, 878)'), ('visStimLoc2', '(-293,-202)'), ('visStimW', -285), ('visStimH', -338)])
+40.8952 	EXP 	window1: mouseVisible = False
+40.9071 	EXP 	respPromptLocal: autoDraw = False
+40.9071 	EXP 	slider: autoDraw = False
+40.9071 	EXP 	prepFixTxt: autoDraw = True
+41.8911 	EXP 	window1: mouseVisible = False
+42.0068 	EXP 	prepFixTxt: autoDraw = False
+42.0068 	EXP 	prepFixTxt: autoDraw = False
+42.0068 	EXP 	prepFixTxt_2: autoDraw = True
+42.9146 	EXP 	window1: mouseVisible = True
+42.9402 	EXP 	prepFixTxt_2: autoDraw = False
+42.9402 	EXP 	respPromptLocal: text = 'Where was the sound?'
+42.9402 	EXP 	slider: markerPos = None
+42.9402 	EXP 	slider: markerPos = None
+42.9402 	EXP 	slider: rating = None
+42.9402 	EXP 	respPromptLocal: autoDraw = True
+42.9402 	EXP 	slider: autoDraw = True
+43.7262 	DATA 	Mouse: Left button down, pos=(567,123)
+43.7406 	EXP 	slider: markerPos = 1.2920634920634921
+43.7571 	EXP 	slider: markerPos = 1.2920634920634921
+43.7738 	EXP 	slider: markerPos = 1.2920634920634921
+43.7759 	DATA 	Mouse:  Left button up, pos=(567,123)
+43.7913 	EXP 	slider: markerPos = 1.2920634920634921
+43.7913 	EXP 	slider: rating = 1.2920634920634921
+43.7952 	EXP 	window1: mouseVisible = False
+43.7955 	EXP 	New trial (rep=0, index=3): OrderedDict([('targetSpeakerName', 'farLeft'), ('targetSpeakerEccen', -19.1), ('targetSpkrChannel', 5), ('targetSpkrSound', 'ch1Sound_localizationTask.wav'), ('targetVisualDegrees', -19.1), ('visStimLoc', '(667, 878)'), ('visStimLoc2', '(-293,-202)'), ('visStimW', -285), ('visStimH', -338)])
+43.7958 	EXP 	window1: mouseVisible = False
+43.8070 	EXP 	respPromptLocal: autoDraw = False
+43.8070 	EXP 	slider: autoDraw = False
+43.8070 	EXP 	prepFixTxt: autoDraw = True
+44.7912 	EXP 	window1: mouseVisible = False
+44.9067 	EXP 	prepFixTxt: autoDraw = False
+44.9067 	EXP 	prepFixTxt: autoDraw = False
+44.9067 	EXP 	prepFixTxt_2: autoDraw = True
+45.8145 	EXP 	window1: mouseVisible = True
+45.8402 	EXP 	prepFixTxt_2: autoDraw = False
+45.8402 	EXP 	respPromptLocal: text = 'Where was the sound?'
+45.8402 	EXP 	slider: markerPos = None
+45.8402 	EXP 	slider: markerPos = None
+45.8402 	EXP 	slider: rating = None
+45.8402 	EXP 	respPromptLocal: autoDraw = True
+45.8402 	EXP 	slider: autoDraw = True
+46.5260 	DATA 	Mouse: Left button down, pos=(487,123)
+46.5405 	EXP 	slider: markerPos = 1.2497354497354498
+46.5570 	EXP 	slider: markerPos = 1.2497354497354498
+46.5738 	EXP 	slider: markerPos = 1.2497354497354498
+46.5804 	DATA 	Mouse:  Left button up, pos=(487,123)
+46.5904 	EXP 	slider: markerPos = 1.2497354497354498
+46.6074 	EXP 	slider: markerPos = 1.2497354497354498
+46.6074 	EXP 	slider: rating = 1.2497354497354498
+46.6114 	EXP 	window1: mouseVisible = False
+46.6117 	EXP 	New trial (rep=0, index=4): OrderedDict([('targetSpeakerName', 'midRight'), ('targetSpeakerEccen', 13.0), ('targetSpkrChannel', 3), ('targetSpkrSound', 'ch1Sound_localizationTask.wav'), ('targetVisualDegrees', 13.0), ('visStimLoc', '(1142, 878)'), ('visStimLoc2', '(182, -202)'), ('visStimW', 190), ('visStimH', -338)])
+46.6120 	EXP 	window1: mouseVisible = False
+46.6236 	EXP 	respPromptLocal: autoDraw = False
+46.6236 	EXP 	slider: autoDraw = False
+46.6236 	EXP 	prepFixTxt: autoDraw = True
+47.6078 	EXP 	window1: mouseVisible = False
+47.7236 	EXP 	prepFixTxt: autoDraw = False
+47.7236 	EXP 	prepFixTxt: autoDraw = False
+47.7236 	EXP 	prepFixTxt_2: autoDraw = True
+48.6315 	EXP 	window1: mouseVisible = True
+48.6565 	EXP 	prepFixTxt_2: autoDraw = False
+48.6565 	EXP 	respPromptLocal: text = 'Where was the sound?'
+48.6565 	EXP 	slider: markerPos = None
+48.6565 	EXP 	slider: markerPos = None
+48.6565 	EXP 	slider: rating = None
+48.6565 	EXP 	respPromptLocal: autoDraw = True
+48.6565 	EXP 	slider: autoDraw = True
+49.7429 	DATA 	Mouse: Left button down, pos=(1160,112)
+49.7572 	EXP 	slider: markerPos = 1.6058201058201058
+49.7737 	EXP 	slider: markerPos = 1.6058201058201058
+49.7905 	EXP 	slider: markerPos = 1.6058201058201058
+49.8071 	EXP 	slider: markerPos = 1.6058201058201058
+49.8236 	EXP 	slider: markerPos = 1.6058201058201058
+49.8258 	DATA 	Mouse:  Left button up, pos=(1160,112)
+49.8411 	EXP 	slider: markerPos = 1.6058201058201058
+49.8411 	EXP 	slider: rating = 1.6058201058201058
+49.8450 	EXP 	window1: mouseVisible = False
+49.8453 	EXP 	New trial (rep=0, index=5): OrderedDict([('targetSpeakerName', 'midRight'), ('targetSpeakerEccen', 13.0), ('targetSpkrChannel', 3), ('targetSpkrSound', 'ch1Sound_localizationTask.wav'), ('targetVisualDegrees', 13.0), ('visStimLoc', '(1142, 878)'), ('visStimLoc2', '(182, -202)'), ('visStimW', 190), ('visStimH', -338)])
+49.8456 	EXP 	window1: mouseVisible = False
+49.8572 	EXP 	respPromptLocal: autoDraw = False
+49.8572 	EXP 	slider: autoDraw = False
+49.8572 	EXP 	prepFixTxt: autoDraw = True
+50.8410 	EXP 	window1: mouseVisible = False
+50.9569 	EXP 	prepFixTxt: autoDraw = False
+50.9569 	EXP 	prepFixTxt: autoDraw = False
+50.9569 	EXP 	prepFixTxt_2: autoDraw = True
+51.8649 	EXP 	window1: mouseVisible = True
+51.8905 	EXP 	prepFixTxt_2: autoDraw = False
+51.8905 	EXP 	respPromptLocal: text = 'Where was the sound?'
+51.8905 	EXP 	slider: markerPos = None
+51.8905 	EXP 	slider: markerPos = None
+51.8905 	EXP 	slider: rating = None
+51.8905 	EXP 	respPromptLocal: autoDraw = True
+51.8905 	EXP 	slider: autoDraw = True
+53.4609 	DATA 	Mouse: Left button down, pos=(1309,95)
+53.4905 	EXP 	slider: markerPos = 1.6846560846560847
+53.5073 	EXP 	slider: markerPos = 1.6846560846560847
+53.5237 	EXP 	slider: markerPos = 1.6846560846560847
+53.5405 	EXP 	slider: markerPos = 1.6846560846560847
+53.5427 	DATA 	Mouse:  Left button up, pos=(1309,95)
+53.5580 	EXP 	slider: markerPos = 1.6846560846560847
+53.5580 	EXP 	slider: rating = 1.6846560846560847
+53.5619 	EXP 	window1: mouseVisible = False
+53.5622 	EXP 	New trial (rep=0, index=6): OrderedDict([('targetSpeakerName', 'midRight'), ('targetSpeakerEccen', 13.0), ('targetSpkrChannel', 3), ('targetSpkrSound', 'ch1Sound_localizationTask.wav'), ('targetVisualDegrees', 13.0), ('visStimLoc', '(1142, 878)'), ('visStimLoc2', '(182, -202)'), ('visStimW', 190), ('visStimH', -338)])
+53.5625 	EXP 	window1: mouseVisible = False
+53.5738 	EXP 	respPromptLocal: autoDraw = False
+53.5738 	EXP 	slider: autoDraw = False
+53.5738 	EXP 	prepFixTxt: autoDraw = True
+54.5579 	EXP 	window1: mouseVisible = False
+54.6734 	EXP 	prepFixTxt: autoDraw = False
+54.6734 	EXP 	prepFixTxt: autoDraw = False
+54.6734 	EXP 	prepFixTxt_2: autoDraw = True
+55.5815 	EXP 	window1: mouseVisible = True
+55.6070 	EXP 	prepFixTxt_2: autoDraw = False
+55.6070 	EXP 	respPromptLocal: text = 'Where was the sound?'
+55.6070 	EXP 	slider: markerPos = None
+55.6070 	EXP 	slider: markerPos = None
+55.6070 	EXP 	slider: rating = None
+55.6070 	EXP 	respPromptLocal: autoDraw = True
+55.6070 	EXP 	slider: autoDraw = True
+56.5424 	DATA 	Mouse: Left button down, pos=(1315,92)
+56.5570 	EXP 	slider: markerPos = 1.687830687830688
+56.5738 	EXP 	slider: markerPos = 1.687830687830688
+56.5904 	EXP 	slider: markerPos = 1.687830687830688
+56.6070 	EXP 	slider: markerPos = 1.687830687830688
+56.6239 	EXP 	slider: markerPos = 1.687830687830688
+56.6402 	EXP 	slider: markerPos = 1.687830687830688
+56.6425 	DATA 	Mouse:  Left button up, pos=(1315,93)
+56.6579 	EXP 	slider: markerPos = 1.687830687830688
+56.6579 	EXP 	slider: rating = 1.687830687830688
+56.6617 	EXP 	window1: mouseVisible = False
+56.6621 	EXP 	New trial (rep=1, index=0): OrderedDict([('targetSpeakerName', 'nearRight'), ('targetSpeakerEccen', 6.5), ('targetSpkrChannel', 0), ('targetSpkrSound', 'ch1Sound_localizationTask.wav'), ('targetVisualDegrees', 6.5), ('visStimLoc', '(1047, 878)'), ('visStimLoc2', '(87, -202)'), ('visStimW', 95), ('visStimH', -338)])
+56.6624 	EXP 	window1: mouseVisible = False
+56.6737 	EXP 	respPromptLocal: autoDraw = False
+56.6737 	EXP 	slider: autoDraw = False
+56.6737 	EXP 	prepFixTxt: autoDraw = True
+57.6577 	EXP 	window1: mouseVisible = False
+57.7736 	EXP 	prepFixTxt: autoDraw = False
+57.7736 	EXP 	prepFixTxt: autoDraw = False
+57.7736 	EXP 	prepFixTxt_2: autoDraw = True
+58.6816 	EXP 	window1: mouseVisible = True
+58.7073 	EXP 	prepFixTxt_2: autoDraw = False
+58.7073 	EXP 	respPromptLocal: text = 'Where was the sound?'
+58.7073 	EXP 	slider: markerPos = None
+58.7073 	EXP 	slider: markerPos = None
+58.7073 	EXP 	slider: rating = None
+58.7073 	EXP 	respPromptLocal: autoDraw = True
+58.7073 	EXP 	slider: autoDraw = True
+65.3428 	DATA 	Mouse: Left button down, pos=(1301,102)
+65.3575 	EXP 	slider: markerPos = 1.6804232804232804
+65.3740 	EXP 	slider: markerPos = 1.6804232804232804
+65.3906 	EXP 	slider: markerPos = 1.6804232804232804
+65.4069 	EXP 	slider: markerPos = 1.6804232804232804
+65.4239 	EXP 	slider: markerPos = 1.6804232804232804
+65.4405 	EXP 	slider: markerPos = 1.6804232804232804
+65.4571 	EXP 	slider: markerPos = 1.6804232804232804
+65.4599 	DATA 	Mouse:  Left button up, pos=(1301,102)
+65.4757 	EXP 	slider: markerPos = 1.6804232804232804
+65.4757 	EXP 	slider: rating = 1.6804232804232804
+65.4796 	EXP 	window1: mouseVisible = False
+65.4800 	EXP 	New trial (rep=1, index=1): OrderedDict([('targetSpeakerName', 'farLeft'), ('targetSpeakerEccen', -19.1), ('targetSpkrChannel', 5), ('targetSpkrSound', 'ch1Sound_localizationTask.wav'), ('targetVisualDegrees', -19.1), ('visStimLoc', '(667, 878)'), ('visStimLoc2', '(-293,-202)'), ('visStimW', -285), ('visStimH', -338)])
+65.4803 	EXP 	window1: mouseVisible = False
+65.4903 	EXP 	respPromptLocal: autoDraw = False
+65.4903 	EXP 	slider: autoDraw = False
+65.4903 	EXP 	prepFixTxt: autoDraw = True
+66.4745 	EXP 	window1: mouseVisible = False
+66.5901 	EXP 	prepFixTxt: autoDraw = False
+66.5901 	EXP 	prepFixTxt: autoDraw = False
+66.5901 	EXP 	prepFixTxt_2: autoDraw = True
+67.4982 	EXP 	window1: mouseVisible = True
+67.5235 	EXP 	prepFixTxt_2: autoDraw = False
+67.5235 	EXP 	respPromptLocal: text = 'Where was the sound?'
+67.5235 	EXP 	slider: markerPos = None
+67.5235 	EXP 	slider: markerPos = None
+67.5235 	EXP 	slider: rating = None
+67.5235 	EXP 	respPromptLocal: autoDraw = True
+67.5235 	EXP 	slider: autoDraw = True
+68.2092 	DATA 	Mouse: Left button down, pos=(638,135)
+68.2241 	EXP 	slider: markerPos = 1.3296296296296295
+68.2408 	EXP 	slider: markerPos = 1.3296296296296295
+68.2430 	DATA 	Mouse:  Left button up, pos=(638,137)
+68.2584 	EXP 	slider: markerPos = 1.3296296296296295
+68.2584 	EXP 	slider: rating = 1.3296296296296295
+68.2625 	EXP 	window1: mouseVisible = False
+68.2628 	EXP 	New trial (rep=1, index=2): OrderedDict([('targetSpeakerName', 'farLeft'), ('targetSpeakerEccen', -19.1), ('targetSpkrChannel', 5), ('targetSpkrSound', 'ch1Sound_localizationTask.wav'), ('targetVisualDegrees', -19.1), ('visStimLoc', '(667, 878)'), ('visStimLoc2', '(-293,-202)'), ('visStimW', -285), ('visStimH', -338)])
+68.2631 	EXP 	window1: mouseVisible = False
+68.2740 	EXP 	respPromptLocal: autoDraw = False
+68.2740 	EXP 	slider: autoDraw = False
+68.2740 	EXP 	prepFixTxt: autoDraw = True
+69.2578 	EXP 	window1: mouseVisible = False
+69.3737 	EXP 	prepFixTxt: autoDraw = False
+69.3737 	EXP 	prepFixTxt: autoDraw = False
+69.3737 	EXP 	prepFixTxt_2: autoDraw = True
+70.2812 	EXP 	window1: mouseVisible = True
+70.3069 	EXP 	prepFixTxt_2: autoDraw = False
+70.3069 	EXP 	respPromptLocal: text = 'Where was the sound?'
+70.3069 	EXP 	slider: markerPos = None
+70.3069 	EXP 	slider: markerPos = None
+70.3069 	EXP 	slider: rating = None
+70.3069 	EXP 	respPromptLocal: autoDraw = True
+70.3069 	EXP 	slider: autoDraw = True
+83.2104 	DATA 	Keypress: escape
+83.5628 	EXP 	window1: mouseVisible = True

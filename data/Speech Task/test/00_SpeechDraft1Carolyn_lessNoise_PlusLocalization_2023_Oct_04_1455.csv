@@ -1,0 +1,10 @@
+﻿Audio_Only_Files,Video_Files,Original_Word_List,noiseLevelCode,conditionCodes,noiseLevelFile1,noiseLevelFile2,InstrTextVar,practiceTrials.thisRepN,practiceTrials.thisTrialN,practiceTrials.thisN,practiceTrials.thisIndex,letsGoAlready.keys,letsGoAlready.rt,letsGoAlready.started,letsGoAlready.stopped,text_2.started,text_2.stopped,text_3.started,text_3.stopped,key_resp_2.keys,key_resp_2.rt,key_resp_2.started,key_resp_2.stopped,text_5.started,text_5.stopped,fixCross.started,fixCross.stopped,fixCross2.started,fixCross2.stopped,answerPrompt.started,answerPrompt.stopped,getAnswer.text,getAnswer.started,getAnswer.stopped,goToNext.keys,goToNext.rt,goToNext.started,goToNext.stopped,participant,session,date,expName,psychopyVersion,frameRate,
+,,,,,,,,,,,,space,1638.535713531077,12.471598976058885,None,,,,,,,,,,,,,,,,,,,,,,,,00,001,2023_Oct_04_1455,SpeechDraft1Carolyn_lessNoise_PlusLocalization,2021.2.3,60.18297026193589,
+,,,,,,,,,,,,,,,,12.471598976058885,None,1651.1399146590848,None,space,30.131971624912694,1651.3234785611276,None,,,,,,,,,,,,,,,,00,001,2023_Oct_04_1455,SpeechDraft1Carolyn_lessNoise_PlusLocalization,2021.2.3,60.18297026193589,
+ash.wav,ash.mpg,ash,1,A,Pink_Noise_1_1.wav,Pink_Noise_1_2.wav,"This is an example of an
+
+AUDIO trial",0,0,0,0,,,,,,,,,,,,,1681.5066039520316,None,1682.4902547320817,None,1686.6569388771895,None,1688.04053358105,None,"ash
+",1688.04053358105,None,return,6.251691144192591,1688.123621708015,None,00,001,2023_Oct_04_1455,SpeechDraft1Carolyn_lessNoise_PlusLocalization,2021.2.3,60.18297026193589,
+ash.wav,ash.mpg,ash,1,AV,Pink_Noise_1_1.wav,Pink_Noise_1_2.wav,"This is an example of an
+
+AUDIO + VIDEO  trial",0,1,1,1,,,,,,,,,,,,,1694.4234882500023,None,1695.4235665770248,None,1696.9234116140287,None,1698.3089557050262,None,ash,1698.3089557050262,None,return,8.424905282910913,1698.3904081981163,None,00,001,2023_Oct_04_1455,SpeechDraft1Carolyn_lessNoise_PlusLocalization,2021.2.3,60.18297026193589,

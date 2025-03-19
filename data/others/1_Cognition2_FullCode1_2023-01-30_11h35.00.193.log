@@ -1,0 +1,665 @@
+12.1095 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fc83e04e430>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fc810dd0e20>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1024,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+12.1097 	EXP 	window1: mouseVisible = True
+12.1101 	EXP 	window1: mouseVisible = False
+12.1102 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+12.1102 	EXP 	window1: recordFrameIntervals = False
+12.2090 	EXP 	window1: recordFrameIntervals = True
+12.3192 	EXP 	Screen (0) actual frame rate measured at 99.98Hz
+12.3193 	EXP 	window1: recordFrameIntervals = False
+15.8067 	EXP 	window1: mouseVisible = False
+15.9345 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+15.9357 	EXP 	Created variableInstructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='variableInstructions', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+15.9379 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.10000000000000002, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+15.9438 	EXP 	Created preFix = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='preFix', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+15.9483 	EXP 	Created holdFix = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='holdFix', opacity=0.8, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+15.9574 	EXP 	Created cir1 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='cir1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+15.9630 	EXP 	Created cir2 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='cir2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+15.9683 	EXP 	Created cir3 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='cir3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+15.9755 	EXP 	Created cir4 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-5.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='cir4', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+15.9812 	EXP 	Created cir5 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-6.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='cir5', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+15.9869 	EXP 	Created cir6 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-7.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='cir6', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+16.1763 	EXP 	Sound audioTrialSound set volume 1.000
+16.1802 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text', opacity=0.8, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+16.1838 	EXP 	Created holdFix_i2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='holdFix_i2', opacity=0.8, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+16.1908 	EXP 	Created cir1_i2 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='cir1_i2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([60., 60.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+16.1974 	EXP 	Created cir2_i2 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='cir2_i2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+16.2039 	EXP 	Created cir3_i2 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='cir3_i2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+16.2104 	EXP 	Created cir4_i2 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-5.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='cir4_i2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+16.2169 	EXP 	Created cir5_i2 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-6.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='cir5_i2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+16.2235 	EXP 	Created cir6_i2 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-7.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='cir6_i2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+16.2466 	EXP 	Sound audioTrialSound_i2 set volume 1.000
+16.2728 	EXP 	Created promptTxt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.075, italic=False, languageStyle='LTR', name='promptTxt', opacity=1.0, ori=0.0, pos=array([0. , 0.1]), rgb=UNKNOWN, text='THE SAME (1) or DIFFERENT (2)', units='height', win=Window(...), wrapWidth=1)
+16.2739 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_5', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+16.3173 	EXP 	Created breatheBro = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='breatheBro', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+18.0032 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='IMG_8798.jpg', interpolate=True, mask=None, maskParams=None, name='image', opacity=0.3, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+18.0196 	EXP 	Created spaceTxt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='spaceTxt', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+18.0343 	EXP 	Created mainInstrText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='mainInstrText', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+18.0353 	EXP 	Created whichBlkTxt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='whichBlkTxt', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+18.0414 	EXP 	Created fixCross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.025000000000000005, italic=False, languageStyle='LTR', name='fixCross', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+18.0465 	EXP 	Created gratingStim = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, interpolate=True, mask='gauss', maskParams=None, name='gratingStim', opacity=1.0, ori=0.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([0.0125, 0.0125]), size=array([80., 80.]), tex='sin', texRes=128.0, units='pix', win=Window(...))
+18.2324 	EXP 	Sound beepStim set volume 1.000
+18.2357 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.025000000000000005, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+18.2371 	EXP 	Created feedbackIfNeeded = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='feedbackIfNeeded', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+18.2613 	EXP 	Sound annoyingBeep set volume 1.000
+18.3059 	EXP 	Created wordRecallInstr = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='wordRecallInstr', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+18.3381 	EXP 	Created wordText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='wordText', opacity=1.0, ori=0.0, pos=array([0.  , 0.35]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+18.3619 	EXP 	Created byebyeText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='byebyeText', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+18.3814 	EXP 	textForWords: autoLog = True
+18.3814 	EXP 	text_3: autoDraw = True
+19.5680 	EXP 	Imported OverallOrg.csv as conditions, 2 conditions, 1 params
+19.5686 	EXP 	Created sequence: sequential, trialTypes=2, nReps=1, seed=None
+19.5689 	EXP 	New trial (rep=0, index=0): OrderedDict([('filePaths', '/Users/shamslab/Desktop/Cognition2_FullExperimentFile/1_AudioBlock1.csv')])
+19.6035 	DATA 	Keypress: space
+19.6105 	EXP 	text_3: autoDraw = False
+19.6105 	EXP 	variableInstructions: height = 0.05000000000000001
+19.6105 	EXP 	variableInstructions: height = 0.05000000000000001
+19.6105 	EXP 	variableInstructions: height = 0.05000000000000001
+19.6105 	EXP 	variableInstructions: text = "In this block, you will be hearing Auditory rhythms.\n         Keep your eyes in the middle of the screen as you listen to the two rhythms.\n\n        After each pair of rhythms, please report if you think they are the same or different.\n        This may be challenging, but try your best to be as quick AND accurate as possible.\n\n        Press space when you're ready to begin"
+19.6705 	EXP 	variableInstructions: autoDraw = True
+20.4718 	EXP 	Imported /Users/shamslab/Desktop/Cognition2_FullExperimentFile/1_AudioBlock1.csv as conditions, 32 conditions, 46 params
+20.4725 	EXP 	Created sequence: random, trialTypes=32, nReps=1, seed=None
+20.4736 	EXP 	New trial (rep=0, index=0): OrderedDict([('rhythm', 0), ('stim1', 2), ('stim2', 2), ('stim3', 1), ('stim4', 2), ('stim5', 1), ('stim6', 2), ('stim1Start', 11), ('stim1End', 41), ('stim2Start', 53), ('stim2End', 83), ('stim3Start', 95), ('stim3End', 100), ('stim4Start', 112), ('stim4End', 142), ('stim5Start', 154), ('stim5End', 159), ('stim6Start', 171), ('stim6End', 201), ('audFile', '1_audFile.wav'), ('audStart', 10), ('similCat', 3), ('rhythm_i2', 8), ('stim1_i2', 2), ('stim2_i2', 2), ('stim3_i2', 1), ('stim4_i2', 1), ('stim5_i2', 2), ('stim6_i2', 1), ('stim1Start_i2', 11), ('stim1End_i2', 41), ('stim2Start_i2', 53), ('stim2End_i2', 83), ('stim3Start_i2', 95), ('stim3End_i2', 100), ('stim4Start_i2', 112), ('stim4End_i2', 117), ('stim5Start_i2', 129), ('stim5End_i2', 159), ('stim6Start_i2', 171), ('stim6End_i2', 176), ('audFile_i2', '9_audFile.wav'), ('audStart_i2', 10), ('similCat_i2', 3), ('setVol', 1), ('corrMatchAnswer', 2)])
+20.4800 	DATA 	Keypress: space
+20.4908 	EXP 	variableInstructions: autoDraw = False
+20.4908 	EXP 	text_2: autoDraw = True
+20.6510 	EXP 	preFix: autoDraw = True
+21.6512 	EXP 	preFix: autoDraw = False
+21.6812 	EXP 	text_2: autoDraw = False
+21.6812 	EXP 	preFix: autoDraw = False
+21.6812 	EXP 	cir1: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+21.6812 	EXP 	cir2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+21.6812 	EXP 	cir3: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+21.6812 	EXP 	cir4: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+21.6812 	EXP 	cir5: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+21.6812 	EXP 	cir6: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+21.6812 	EXP 	holdFix: autoDraw = True
+21.7813 	EXP 	Sound audioTrialSound started
+21.7913 	EXP 	cir1: autoDraw = True
+22.0913 	EXP 	cir1: autoDraw = False
+22.2112 	EXP 	cir2: autoDraw = True
+22.5113 	EXP 	cir2: autoDraw = False
+22.6314 	EXP 	cir3: autoDraw = True
+22.6814 	EXP 	cir3: autoDraw = False
+22.8014 	EXP 	cir4: autoDraw = True
+23.1017 	EXP 	cir4: autoDraw = False
+23.2147 	EXP 	Sound audioTrialSound reached end of file
+23.2217 	EXP 	cir5: autoDraw = True
+23.2716 	EXP 	cir5: autoDraw = False
+23.3918 	EXP 	cir6: autoDraw = True
+23.5418 	EXP 	holdFix: autoDraw = False
+23.6918 	EXP 	cir6: autoDraw = False
+23.6918 	EXP 	holdFix: autoDraw = False
+23.6918 	EXP 	cir1: autoDraw = False
+23.6918 	EXP 	cir2: autoDraw = False
+23.6918 	EXP 	cir3: autoDraw = False
+23.6918 	EXP 	cir4: autoDraw = False
+23.6918 	EXP 	cir5: autoDraw = False
+23.6918 	EXP 	cir6: autoDraw = False
+23.6918 	EXP 	text: autoDraw = True
+25.0021 	EXP 	text: autoDraw = False
+25.0021 	EXP 	text: autoDraw = False
+25.0021 	EXP 	cir1_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+25.0021 	EXP 	cir2_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+25.0021 	EXP 	cir3_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+25.0021 	EXP 	cir4_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+25.0021 	EXP 	cir5_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+25.0021 	EXP 	cir6_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+25.0021 	EXP 	holdFix_i2: autoDraw = True
+25.1023 	EXP 	Sound audioTrialSound_i2 started
+25.1122 	EXP 	cir1_i2: autoDraw = True
+25.4122 	EXP 	cir1_i2: autoDraw = False
+25.5323 	EXP 	cir2_i2: autoDraw = True
+25.8323 	EXP 	cir2_i2: autoDraw = False
+25.9525 	EXP 	cir3_i2: autoDraw = True
+26.0025 	EXP 	cir3_i2: autoDraw = False
+26.1226 	EXP 	cir4_i2: autoDraw = True
+26.1728 	EXP 	cir4_i2: autoDraw = False
+26.2928 	EXP 	cir5_i2: autoDraw = True
+26.5359 	EXP 	Sound audioTrialSound_i2 reached end of file
+26.5928 	EXP 	cir5_i2: autoDraw = False
+26.7230 	EXP 	cir6_i2: autoDraw = True
+26.7729 	EXP 	cir6_i2: autoDraw = False
+27.3728 	EXP 	holdFix_i2: autoDraw = False
+27.3728 	EXP 	holdFix_i2: autoDraw = False
+27.3728 	EXP 	cir1_i2: autoDraw = False
+27.3728 	EXP 	cir2_i2: autoDraw = False
+27.3728 	EXP 	cir3_i2: autoDraw = False
+27.3728 	EXP 	cir4_i2: autoDraw = False
+27.3728 	EXP 	cir5_i2: autoDraw = False
+27.3728 	EXP 	cir6_i2: autoDraw = False
+27.3728 	EXP 	promptTxt: autoDraw = True
+33.6236 	DATA 	Keypress: 1
+33.6345 	EXP 	promptTxt: autoDraw = False
+33.6345 	EXP 	text_5: height = 0.05000000000000001
+33.6345 	EXP 	text_5: height = 0.05000000000000001
+33.6345 	EXP 	text_5: height = 0.05000000000000001
+33.6345 	EXP 	text_5: text = 2
+33.6345 	EXP 	text_5: autoDraw = True
+35.1255 	EXP 	New trial (rep=0, index=1): OrderedDict([('rhythm', 1), ('stim1', 2), ('stim2', 1), ('stim3', 2), ('stim4', 2), ('stim5', 1), ('stim6', 2), ('stim1Start', 11), ('stim1End', 41), ('stim2Start', 53), ('stim2End', 58), ('stim3Start', 70), ('stim3End', 100), ('stim4Start', 112), ('stim4End', 142), ('stim5Start', 154), ('stim5End', 159), ('stim6Start', 171), ('stim6End', 201), ('audFile', '2_audFile.wav'), ('audStart', 10), ('similCat', 2), ('rhythm_i2', 1), ('stim1_i2', 2), ('stim2_i2', 1), ('stim3_i2', 2), ('stim4_i2', 2), ('stim5_i2', 1), ('stim6_i2', 2), ('stim1Start_i2', 11), ('stim1End_i2', 41), ('stim2Start_i2', 53), ('stim2End_i2', 58), ('stim3Start_i2', 70), ('stim3End_i2', 100), ('stim4Start_i2', 112), ('stim4End_i2', 142), ('stim5Start_i2', 154), ('stim5End_i2', 159), ('stim6Start_i2', 171), ('stim6End_i2', 201), ('audFile_i2', '2_audFile.wav'), ('audStart_i2', 10), ('similCat_i2', 2), ('setVol', 1), ('corrMatchAnswer', 1)])
+35.1351 	EXP 	text_5: autoDraw = False
+35.1351 	EXP 	text_2: autoDraw = True
+35.3251 	EXP 	preFix: autoDraw = True
+36.3254 	EXP 	preFix: autoDraw = False
+36.3453 	EXP 	text_2: autoDraw = False
+36.3453 	EXP 	preFix: autoDraw = False
+36.3453 	EXP 	cir1: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+36.3453 	EXP 	cir2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+36.3453 	EXP 	cir3: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+36.3453 	EXP 	cir4: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+36.3453 	EXP 	cir5: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+36.3453 	EXP 	cir6: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+36.3453 	EXP 	holdFix: autoDraw = True
+36.4453 	EXP 	Sound audioTrialSound started
+36.4554 	EXP 	cir1: autoDraw = True
+36.7554 	EXP 	cir1: autoDraw = False
+36.8754 	EXP 	cir2: autoDraw = True
+36.9255 	EXP 	cir2: autoDraw = False
+37.0455 	EXP 	cir3: autoDraw = True
+37.3455 	EXP 	cir3: autoDraw = False
+37.4656 	EXP 	cir4: autoDraw = True
+37.7657 	EXP 	cir4: autoDraw = False
+37.8785 	EXP 	Sound audioTrialSound reached end of file
+37.8859 	EXP 	cir5: autoDraw = True
+37.9358 	EXP 	cir5: autoDraw = False
+38.0559 	EXP 	cir6: autoDraw = True
+38.2058 	EXP 	holdFix: autoDraw = False
+38.3560 	EXP 	cir6: autoDraw = False
+38.3560 	EXP 	holdFix: autoDraw = False
+38.3560 	EXP 	cir1: autoDraw = False
+38.3560 	EXP 	cir2: autoDraw = False
+38.3560 	EXP 	cir3: autoDraw = False
+38.3560 	EXP 	cir4: autoDraw = False
+38.3560 	EXP 	cir5: autoDraw = False
+38.3560 	EXP 	cir6: autoDraw = False
+38.3560 	EXP 	text: autoDraw = True
+39.6662 	EXP 	text: autoDraw = False
+39.6662 	EXP 	text: autoDraw = False
+39.6662 	EXP 	cir1_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+39.6662 	EXP 	cir2_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+39.6662 	EXP 	cir3_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+39.6662 	EXP 	cir4_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+39.6662 	EXP 	cir5_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+39.6662 	EXP 	cir6_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+39.6662 	EXP 	holdFix_i2: autoDraw = True
+39.7664 	EXP 	Sound audioTrialSound_i2 started
+39.7764 	EXP 	cir1_i2: autoDraw = True
+40.0764 	EXP 	cir1_i2: autoDraw = False
+40.1963 	EXP 	cir2_i2: autoDraw = True
+40.2464 	EXP 	cir2_i2: autoDraw = False
+40.3665 	EXP 	cir3_i2: autoDraw = True
+40.6665 	EXP 	cir3_i2: autoDraw = False
+40.7867 	EXP 	cir4_i2: autoDraw = True
+41.0868 	EXP 	cir4_i2: autoDraw = False
+41.1998 	EXP 	Sound audioTrialSound_i2 reached end of file
+41.2068 	EXP 	cir5_i2: autoDraw = True
+41.2568 	EXP 	cir5_i2: autoDraw = False
+41.3768 	EXP 	cir6_i2: autoDraw = True
+41.6769 	EXP 	cir6_i2: autoDraw = False
+42.0269 	EXP 	holdFix_i2: autoDraw = False
+42.0269 	EXP 	holdFix_i2: autoDraw = False
+42.0269 	EXP 	cir1_i2: autoDraw = False
+42.0269 	EXP 	cir2_i2: autoDraw = False
+42.0269 	EXP 	cir3_i2: autoDraw = False
+42.0269 	EXP 	cir4_i2: autoDraw = False
+42.0269 	EXP 	cir5_i2: autoDraw = False
+42.0269 	EXP 	cir6_i2: autoDraw = False
+42.0269 	EXP 	promptTxt: autoDraw = True
+54.9409 	DATA 	Keypress: 2
+54.9507 	EXP 	promptTxt: autoDraw = False
+54.9507 	EXP 	text_5: height = 0.05000000000000001
+54.9507 	EXP 	text_5: height = 0.05000000000000001
+54.9507 	EXP 	text_5: height = 0.05000000000000001
+54.9507 	EXP 	text_5: text = 1
+54.9507 	EXP 	text_5: autoDraw = True
+56.4417 	EXP 	New trial (rep=0, index=2): OrderedDict([('rhythm', 10), ('stim1', 1), ('stim2', 2), ('stim3', 2), ('stim4', 1), ('stim5', 2), ('stim6', 1), ('stim1Start', 11), ('stim1End', 16), ('stim2Start', 28), ('stim2End', 58), ('stim3Start', 70), ('stim3End', 100), ('stim4Start', 112), ('stim4End', 117), ('stim5Start', 129), ('stim5End', 159), ('stim6Start', 171), ('stim6End', 176), ('audFile', '11_audFile.wav'), ('audStart', 10), ('similCat', 1), ('rhythm_i2', 10), ('stim1_i2', 1), ('stim2_i2', 2), ('stim3_i2', 2), ('stim4_i2', 1), ('stim5_i2', 2), ('stim6_i2', 1), ('stim1Start_i2', 11), ('stim1End_i2', 16), ('stim2Start_i2', 28), ('stim2End_i2', 58), ('stim3Start_i2', 70), ('stim3End_i2', 100), ('stim4Start_i2', 112), ('stim4End_i2', 117), ('stim5Start_i2', 129), ('stim5End_i2', 159), ('stim6Start_i2', 171), ('stim6End_i2', 176), ('audFile_i2', '11_audFile.wav'), ('audStart_i2', 10), ('similCat_i2', 1), ('setVol', 1), ('corrMatchAnswer', 1)])
+56.4510 	EXP 	text_5: autoDraw = False
+56.4510 	EXP 	text_2: autoDraw = True
+56.6312 	EXP 	preFix: autoDraw = True
+57.6314 	EXP 	preFix: autoDraw = False
+57.6614 	EXP 	text_2: autoDraw = False
+57.6614 	EXP 	preFix: autoDraw = False
+57.6614 	EXP 	cir1: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+57.6614 	EXP 	cir2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+57.6614 	EXP 	cir3: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+57.6614 	EXP 	cir4: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+57.6614 	EXP 	cir5: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+57.6614 	EXP 	cir6: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+57.6614 	EXP 	holdFix: autoDraw = True
+57.7614 	EXP 	Sound audioTrialSound started
+57.7715 	EXP 	cir1: autoDraw = True
+57.8214 	EXP 	cir1: autoDraw = False
+57.9416 	EXP 	cir2: autoDraw = True
+58.2416 	EXP 	cir2: autoDraw = False
+58.3617 	EXP 	cir3: autoDraw = True
+58.6617 	EXP 	cir3: autoDraw = False
+58.7818 	EXP 	cir4: autoDraw = True
+58.8318 	EXP 	cir4: autoDraw = False
+58.9518 	EXP 	cir5: autoDraw = True
+59.1948 	EXP 	Sound audioTrialSound reached end of file
+59.2519 	EXP 	cir5: autoDraw = False
+59.3719 	EXP 	cir6: autoDraw = True
+59.4221 	EXP 	cir6: autoDraw = False
+59.5220 	EXP 	holdFix: autoDraw = False
+59.5220 	EXP 	holdFix: autoDraw = False
+59.5220 	EXP 	cir1: autoDraw = False
+59.5220 	EXP 	cir2: autoDraw = False
+59.5220 	EXP 	cir3: autoDraw = False
+59.5220 	EXP 	cir4: autoDraw = False
+59.5220 	EXP 	cir5: autoDraw = False
+59.5220 	EXP 	cir6: autoDraw = False
+59.5220 	EXP 	text: autoDraw = True
+60.8227 	EXP 	text: autoDraw = False
+60.8227 	EXP 	cir1_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+60.8227 	EXP 	cir2_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+60.8227 	EXP 	cir3_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+60.8227 	EXP 	cir4_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+60.8227 	EXP 	cir5_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+60.8227 	EXP 	cir6_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+60.8227 	EXP 	holdFix_i2: autoDraw = True
+60.9224 	EXP 	Sound audioTrialSound_i2 started
+60.9323 	EXP 	cir1_i2: autoDraw = True
+60.9823 	EXP 	cir1_i2: autoDraw = False
+61.1024 	EXP 	cir2_i2: autoDraw = True
+61.4024 	EXP 	cir2_i2: autoDraw = False
+61.5226 	EXP 	cir3_i2: autoDraw = True
+61.8226 	EXP 	cir3_i2: autoDraw = False
+61.9427 	EXP 	cir4_i2: autoDraw = True
+61.9925 	EXP 	cir4_i2: autoDraw = False
+62.1128 	EXP 	cir5_i2: autoDraw = True
+62.3560 	EXP 	Sound audioTrialSound_i2 reached end of file
+62.4128 	EXP 	cir5_i2: autoDraw = False
+62.5328 	EXP 	cir6_i2: autoDraw = True
+62.5829 	EXP 	cir6_i2: autoDraw = False
+63.1831 	EXP 	holdFix_i2: autoDraw = False
+63.1831 	EXP 	holdFix_i2: autoDraw = False
+63.1831 	EXP 	cir1_i2: autoDraw = False
+63.1831 	EXP 	cir2_i2: autoDraw = False
+63.1831 	EXP 	cir3_i2: autoDraw = False
+63.1831 	EXP 	cir4_i2: autoDraw = False
+63.1831 	EXP 	cir5_i2: autoDraw = False
+63.1831 	EXP 	cir6_i2: autoDraw = False
+63.1831 	EXP 	promptTxt: autoDraw = True
+63.6024 	DATA 	Keypress: 2
+63.6131 	EXP 	promptTxt: autoDraw = False
+63.6131 	EXP 	text_5: height = 0.05000000000000001
+63.6131 	EXP 	text_5: height = 0.05000000000000001
+63.6131 	EXP 	text_5: height = 0.05000000000000001
+63.6131 	EXP 	text_5: text = 1
+63.6131 	EXP 	text_5: autoDraw = True
+65.1042 	EXP 	New trial (rep=0, index=3): OrderedDict([('rhythm', 3), ('stim1', 2), ('stim2', 1), ('stim3', 2), ('stim4', 1), ('stim5', 2), ('stim6', 2), ('stim1Start', 11), ('stim1End', 41), ('stim2Start', 53), ('stim2End', 58), ('stim3Start', 70), ('stim3End', 100), ('stim4Start', 112), ('stim4End', 117), ('stim5Start', 129), ('stim5End', 159), ('stim6Start', 171), ('stim6End', 201), ('audFile', '4_audFile.wav'), ('audStart', 10), ('similCat', 2), ('rhythm_i2', 3), ('stim1_i2', 2), ('stim2_i2', 1), ('stim3_i2', 2), ('stim4_i2', 1), ('stim5_i2', 2), ('stim6_i2', 2), ('stim1Start_i2', 11), ('stim1End_i2', 41), ('stim2Start_i2', 53), ('stim2End_i2', 58), ('stim3Start_i2', 70), ('stim3End_i2', 100), ('stim4Start_i2', 112), ('stim4End_i2', 117), ('stim5Start_i2', 129), ('stim5End_i2', 159), ('stim6Start_i2', 171), ('stim6End_i2', 201), ('audFile_i2', '4_audFile.wav'), ('audStart_i2', 10), ('similCat_i2', 2), ('setVol', 1), ('corrMatchAnswer', 1)])
+65.1136 	EXP 	text_5: autoDraw = False
+65.1136 	EXP 	text_2: autoDraw = True
+65.2935 	EXP 	preFix: autoDraw = True
+66.2938 	EXP 	preFix: autoDraw = False
+66.3240 	EXP 	text_2: autoDraw = False
+66.3240 	EXP 	preFix: autoDraw = False
+66.3240 	EXP 	cir1: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+66.3240 	EXP 	cir2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+66.3240 	EXP 	cir3: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+66.3240 	EXP 	cir4: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+66.3240 	EXP 	cir5: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+66.3240 	EXP 	cir6: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+66.3240 	EXP 	holdFix: autoDraw = True
+66.4239 	EXP 	Sound audioTrialSound started
+66.4338 	EXP 	cir1: autoDraw = True
+66.7340 	EXP 	cir1: autoDraw = False
+66.8541 	EXP 	cir2: autoDraw = True
+66.9040 	EXP 	cir2: autoDraw = False
+67.0241 	EXP 	cir3: autoDraw = True
+67.3243 	EXP 	cir3: autoDraw = False
+67.4441 	EXP 	cir4: autoDraw = True
+67.4942 	EXP 	cir4: autoDraw = False
+67.6142 	EXP 	cir5: autoDraw = True
+67.8573 	EXP 	Sound audioTrialSound reached end of file
+67.9145 	EXP 	cir5: autoDraw = False
+68.0343 	EXP 	cir6: autoDraw = True
+68.1844 	EXP 	holdFix: autoDraw = False
+68.3345 	EXP 	cir6: autoDraw = False
+68.3345 	EXP 	holdFix: autoDraw = False
+68.3345 	EXP 	cir1: autoDraw = False
+68.3345 	EXP 	cir2: autoDraw = False
+68.3345 	EXP 	cir3: autoDraw = False
+68.3345 	EXP 	cir4: autoDraw = False
+68.3345 	EXP 	cir5: autoDraw = False
+68.3345 	EXP 	cir6: autoDraw = False
+68.3345 	EXP 	text: autoDraw = True
+69.6447 	EXP 	text: autoDraw = False
+69.6447 	EXP 	text: autoDraw = False
+69.6447 	EXP 	cir1_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+69.6447 	EXP 	cir2_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+69.6447 	EXP 	cir3_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+69.6447 	EXP 	cir4_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+69.6447 	EXP 	cir5_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+69.6447 	EXP 	cir6_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+69.6447 	EXP 	holdFix_i2: autoDraw = True
+69.7448 	EXP 	Sound audioTrialSound_i2 started
+69.7549 	EXP 	cir1_i2: autoDraw = True
+70.0550 	EXP 	cir1_i2: autoDraw = False
+70.1750 	EXP 	cir2_i2: autoDraw = True
+70.2250 	EXP 	cir2_i2: autoDraw = False
+70.3451 	EXP 	cir3_i2: autoDraw = True
+70.6452 	EXP 	cir3_i2: autoDraw = False
+70.7651 	EXP 	cir4_i2: autoDraw = True
+70.8151 	EXP 	cir4_i2: autoDraw = False
+70.9353 	EXP 	cir5_i2: autoDraw = True
+71.1782 	EXP 	Sound audioTrialSound_i2 reached end of file
+71.2353 	EXP 	cir5_i2: autoDraw = False
+71.3554 	EXP 	cir6_i2: autoDraw = True
+71.6556 	EXP 	cir6_i2: autoDraw = False
+72.0056 	EXP 	holdFix_i2: autoDraw = False
+72.0056 	EXP 	holdFix_i2: autoDraw = False
+72.0056 	EXP 	cir1_i2: autoDraw = False
+72.0056 	EXP 	cir2_i2: autoDraw = False
+72.0056 	EXP 	cir3_i2: autoDraw = False
+72.0056 	EXP 	cir4_i2: autoDraw = False
+72.0056 	EXP 	cir5_i2: autoDraw = False
+72.0056 	EXP 	cir6_i2: autoDraw = False
+72.0056 	EXP 	promptTxt: autoDraw = True
+72.4525 	DATA 	Keypress: 1
+72.4659 	EXP 	promptTxt: autoDraw = False
+72.4659 	EXP 	text_5: height = 0.05000000000000001
+72.4659 	EXP 	text_5: height = 0.05000000000000001
+72.4659 	EXP 	text_5: height = 0.05000000000000001
+72.4659 	EXP 	text_5: text = 1
+72.4659 	EXP 	text_5: autoDraw = True
+73.9566 	EXP 	New trial (rep=0, index=4): OrderedDict([('rhythm', 5), ('stim1', 1), ('stim2', 2), ('stim3', 1), ('stim4', 2), ('stim5', 2), ('stim6', 2), ('stim1Start', 11), ('stim1End', 16), ('stim2Start', 28), ('stim2End', 58), ('stim3Start', 70), ('stim3End', 75), ('stim4Start', 87), ('stim4End', 117), ('stim5Start', 129), ('stim5End', 159), ('stim6Start', 171), ('stim6End', 201), ('audFile', '6_audFile.wav'), ('audStart', 10), ('similCat', 1), ('rhythm_i2', 12), ('stim1_i2', 1), ('stim2_i2', 2), ('stim3_i2', 1), ('stim4_i2', 2), ('stim5_i2', 2), ('stim6_i2', 1), ('stim1Start_i2', 11), ('stim1End_i2', 16), ('stim2Start_i2', 28), ('stim2End_i2', 58), ('stim3Start_i2', 70), ('stim3End_i2', 75), ('stim4Start_i2', 87), ('stim4End_i2', 117), ('stim5Start_i2', 129), ('stim5End_i2', 159), ('stim6Start_i2', 171), ('stim6End_i2', 176), ('audFile_i2', '13_audFile.wav'), ('audStart_i2', 10), ('similCat_i2', 1), ('setVol', 1), ('corrMatchAnswer', 2)])
+73.9662 	EXP 	text_5: autoDraw = False
+73.9662 	EXP 	text_2: autoDraw = True
+74.1463 	EXP 	preFix: autoDraw = True
+75.1465 	EXP 	preFix: autoDraw = False
+75.1764 	EXP 	text_2: autoDraw = False
+75.1764 	EXP 	preFix: autoDraw = False
+75.1764 	EXP 	cir1: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+75.1764 	EXP 	cir2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+75.1764 	EXP 	cir3: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+75.1764 	EXP 	cir4: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+75.1764 	EXP 	cir5: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+75.1764 	EXP 	cir6: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+75.1764 	EXP 	holdFix: autoDraw = True
+75.2765 	EXP 	Sound audioTrialSound started
+75.2866 	EXP 	cir1: autoDraw = True
+75.3364 	EXP 	cir1: autoDraw = False
+75.4566 	EXP 	cir2: autoDraw = True
+75.7566 	EXP 	cir2: autoDraw = False
+75.8766 	EXP 	cir3: autoDraw = True
+75.9266 	EXP 	cir3: autoDraw = False
+76.0468 	EXP 	cir4: autoDraw = True
+76.3468 	EXP 	cir4: autoDraw = False
+76.4668 	EXP 	cir5: autoDraw = True
+76.7100 	EXP 	Sound audioTrialSound reached end of file
+76.7669 	EXP 	cir5: autoDraw = False
+76.8869 	EXP 	cir6: autoDraw = True
+77.0370 	EXP 	holdFix: autoDraw = False
+77.1869 	EXP 	cir6: autoDraw = False
+77.1869 	EXP 	holdFix: autoDraw = False
+77.1869 	EXP 	cir1: autoDraw = False
+77.1869 	EXP 	cir2: autoDraw = False
+77.1869 	EXP 	cir3: autoDraw = False
+77.1869 	EXP 	cir4: autoDraw = False
+77.1869 	EXP 	cir5: autoDraw = False
+77.1869 	EXP 	cir6: autoDraw = False
+77.1869 	EXP 	text: autoDraw = True
+78.4974 	EXP 	text: autoDraw = False
+78.4974 	EXP 	cir1_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+78.4974 	EXP 	cir2_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+78.4974 	EXP 	cir3_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+78.4974 	EXP 	cir4_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+78.4974 	EXP 	cir5_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+78.4974 	EXP 	cir6_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+78.4974 	EXP 	holdFix_i2: autoDraw = True
+78.5974 	EXP 	Sound audioTrialSound_i2 started
+78.6075 	EXP 	cir1_i2: autoDraw = True
+78.6574 	EXP 	cir1_i2: autoDraw = False
+78.7776 	EXP 	cir2_i2: autoDraw = True
+79.0775 	EXP 	cir2_i2: autoDraw = False
+79.1976 	EXP 	cir3_i2: autoDraw = True
+79.2476 	EXP 	cir3_i2: autoDraw = False
+79.3676 	EXP 	cir4_i2: autoDraw = True
+79.6678 	EXP 	cir4_i2: autoDraw = False
+79.7878 	EXP 	cir5_i2: autoDraw = True
+80.0309 	EXP 	Sound audioTrialSound_i2 reached end of file
+80.0978 	EXP 	cir5_i2: autoDraw = False
+80.2179 	EXP 	cir6_i2: autoDraw = True
+80.2679 	EXP 	cir6_i2: autoDraw = False
+80.8681 	EXP 	holdFix_i2: autoDraw = False
+80.8681 	EXP 	holdFix_i2: autoDraw = False
+80.8681 	EXP 	cir1_i2: autoDraw = False
+80.8681 	EXP 	cir2_i2: autoDraw = False
+80.8681 	EXP 	cir3_i2: autoDraw = False
+80.8681 	EXP 	cir4_i2: autoDraw = False
+80.8681 	EXP 	cir5_i2: autoDraw = False
+80.8681 	EXP 	cir6_i2: autoDraw = False
+80.8681 	EXP 	promptTxt: autoDraw = True
+81.2972 	DATA 	Keypress: 2
+81.3081 	EXP 	promptTxt: autoDraw = False
+81.3081 	EXP 	text_5: height = 0.05000000000000001
+81.3081 	EXP 	text_5: height = 0.05000000000000001
+81.3081 	EXP 	text_5: height = 0.05000000000000001
+81.3081 	EXP 	text_5: text = 2
+81.3081 	EXP 	text_5: autoDraw = True
+82.7992 	EXP 	New trial (rep=0, index=5): OrderedDict([('rhythm', 8), ('stim1', 2), ('stim2', 2), ('stim3', 1), ('stim4', 1), ('stim5', 2), ('stim6', 1), ('stim1Start', 11), ('stim1End', 41), ('stim2Start', 53), ('stim2End', 83), ('stim3Start', 95), ('stim3End', 100), ('stim4Start', 112), ('stim4End', 117), ('stim5Start', 129), ('stim5End', 159), ('stim6Start', 171), ('stim6End', 176), ('audFile', '9_audFile.wav'), ('audStart', 10), ('similCat', 3), ('rhythm_i2', 8), ('stim1_i2', 2), ('stim2_i2', 2), ('stim3_i2', 1), ('stim4_i2', 1), ('stim5_i2', 2), ('stim6_i2', 1), ('stim1Start_i2', 11), ('stim1End_i2', 41), ('stim2Start_i2', 53), ('stim2End_i2', 83), ('stim3Start_i2', 95), ('stim3End_i2', 100), ('stim4Start_i2', 112), ('stim4End_i2', 117), ('stim5Start_i2', 129), ('stim5End_i2', 159), ('stim6Start_i2', 171), ('stim6End_i2', 176), ('audFile_i2', '9_audFile.wav'), ('audStart_i2', 10), ('similCat_i2', 3), ('setVol', 1), ('corrMatchAnswer', 1)])
+82.8087 	EXP 	text_5: autoDraw = False
+82.8087 	EXP 	text_2: autoDraw = True
+82.9987 	EXP 	preFix: autoDraw = True
+83.9990 	EXP 	preFix: autoDraw = False
+84.0093 	EXP 	text_2: autoDraw = False
+84.0093 	EXP 	preFix: autoDraw = False
+84.0093 	EXP 	cir1: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+84.0093 	EXP 	cir2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+84.0093 	EXP 	cir3: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+84.0093 	EXP 	cir4: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+84.0093 	EXP 	cir5: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+84.0093 	EXP 	cir6: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+84.0093 	EXP 	holdFix: autoDraw = True
+84.1091 	EXP 	Sound audioTrialSound started
+84.1190 	EXP 	cir1: autoDraw = True
+84.4191 	EXP 	cir1: autoDraw = False
+84.5391 	EXP 	cir2: autoDraw = True
+84.8391 	EXP 	cir2: autoDraw = False
+84.9592 	EXP 	cir3: autoDraw = True
+85.0092 	EXP 	cir3: autoDraw = False
+85.1292 	EXP 	cir4: autoDraw = True
+85.1793 	EXP 	cir4: autoDraw = False
+85.2994 	EXP 	cir5: autoDraw = True
+85.5425 	EXP 	Sound audioTrialSound reached end of file
+85.5994 	EXP 	cir5: autoDraw = False
+85.7195 	EXP 	cir6: autoDraw = True
+85.7695 	EXP 	cir6: autoDraw = False
+85.8695 	EXP 	holdFix: autoDraw = False
+85.8695 	EXP 	holdFix: autoDraw = False
+85.8695 	EXP 	cir1: autoDraw = False
+85.8695 	EXP 	cir2: autoDraw = False
+85.8695 	EXP 	cir3: autoDraw = False
+85.8695 	EXP 	cir4: autoDraw = False
+85.8695 	EXP 	cir5: autoDraw = False
+85.8695 	EXP 	cir6: autoDraw = False
+85.8695 	EXP 	text: autoDraw = True
+87.1799 	EXP 	text: autoDraw = False
+87.1799 	EXP 	text: autoDraw = False
+87.1799 	EXP 	cir1_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+87.1799 	EXP 	cir2_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+87.1799 	EXP 	cir3_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+87.1799 	EXP 	cir4_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+87.1799 	EXP 	cir5_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+87.1799 	EXP 	cir6_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+87.1799 	EXP 	holdFix_i2: autoDraw = True
+87.2799 	EXP 	Sound audioTrialSound_i2 started
+87.2899 	EXP 	cir1_i2: autoDraw = True
+87.5899 	EXP 	cir1_i2: autoDraw = False
+87.7099 	EXP 	cir2_i2: autoDraw = True
+88.0101 	EXP 	cir2_i2: autoDraw = False
+88.1302 	EXP 	cir3_i2: autoDraw = True
+88.1801 	EXP 	cir3_i2: autoDraw = False
+88.3001 	EXP 	cir4_i2: autoDraw = True
+88.3501 	EXP 	cir4_i2: autoDraw = False
+88.4702 	EXP 	cir5_i2: autoDraw = True
+88.7134 	EXP 	Sound audioTrialSound_i2 reached end of file
+88.7704 	EXP 	cir5_i2: autoDraw = False
+88.8904 	EXP 	cir6_i2: autoDraw = True
+88.9404 	EXP 	cir6_i2: autoDraw = False
+89.5405 	EXP 	holdFix_i2: autoDraw = False
+89.5405 	EXP 	holdFix_i2: autoDraw = False
+89.5405 	EXP 	cir1_i2: autoDraw = False
+89.5405 	EXP 	cir2_i2: autoDraw = False
+89.5405 	EXP 	cir3_i2: autoDraw = False
+89.5405 	EXP 	cir4_i2: autoDraw = False
+89.5405 	EXP 	cir5_i2: autoDraw = False
+89.5405 	EXP 	cir6_i2: autoDraw = False
+89.5405 	EXP 	promptTxt: autoDraw = True
+89.9850 	DATA 	Keypress: 1
+90.0007 	EXP 	promptTxt: autoDraw = False
+90.0007 	EXP 	text_5: height = 0.05000000000000001
+90.0007 	EXP 	text_5: height = 0.05000000000000001
+90.0007 	EXP 	text_5: height = 0.05000000000000001
+90.0007 	EXP 	text_5: text = 1
+90.0007 	EXP 	text_5: autoDraw = True
+91.4922 	EXP 	New trial (rep=0, index=6): OrderedDict([('rhythm', 11), ('stim1', 2), ('stim2', 1), ('stim3', 1), ('stim4', 2), ('stim5', 2), ('stim6', 1), ('stim1Start', 11), ('stim1End', 41), ('stim2Start', 53), ('stim2End', 58), ('stim3Start', 70), ('stim3End', 75), ('stim4Start', 87), ('stim4End', 117), ('stim5Start', 129), ('stim5End', 159), ('stim6Start', 171), ('stim6End', 176), ('audFile', '12_audFile.wav'), ('audStart', 10), ('similCat', 2), ('rhythm_i2', 11), ('stim1_i2', 2), ('stim2_i2', 1), ('stim3_i2', 1), ('stim4_i2', 2), ('stim5_i2', 2), ('stim6_i2', 1), ('stim1Start_i2', 11), ('stim1End_i2', 41), ('stim2Start_i2', 53), ('stim2End_i2', 58), ('stim3Start_i2', 70), ('stim3End_i2', 75), ('stim4Start_i2', 87), ('stim4End_i2', 117), ('stim5Start_i2', 129), ('stim5End_i2', 159), ('stim6Start_i2', 171), ('stim6End_i2', 176), ('audFile_i2', '12_audFile.wav'), ('audStart_i2', 10), ('similCat_i2', 2), ('setVol', 1), ('corrMatchAnswer', 1)])
+91.5011 	EXP 	text_5: autoDraw = False
+91.5011 	EXP 	text_5: autoDraw = False
+91.5011 	EXP 	text_2: autoDraw = True
+91.6911 	EXP 	preFix: autoDraw = True
+92.6914 	EXP 	preFix: autoDraw = False
+92.7114 	EXP 	text_2: autoDraw = False
+92.7114 	EXP 	text_2: autoDraw = False
+92.7114 	EXP 	preFix: autoDraw = False
+92.7114 	EXP 	cir1: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+92.7114 	EXP 	cir2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+92.7114 	EXP 	cir3: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+92.7114 	EXP 	cir4: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+92.7114 	EXP 	cir5: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+92.7114 	EXP 	cir6: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+92.7114 	EXP 	holdFix: autoDraw = True
+92.8117 	EXP 	Sound audioTrialSound started
+92.8217 	EXP 	cir1: autoDraw = True
+93.1216 	EXP 	cir1: autoDraw = False
+93.2416 	EXP 	cir2: autoDraw = True
+93.2918 	EXP 	cir2: autoDraw = False
+93.4117 	EXP 	cir3: autoDraw = True
+93.4616 	EXP 	cir3: autoDraw = False
+93.5817 	EXP 	cir4: autoDraw = True
+93.8817 	EXP 	cir4: autoDraw = False
+94.0019 	EXP 	cir5: autoDraw = True
+94.2452 	EXP 	Sound audioTrialSound reached end of file
+94.3021 	EXP 	cir5: autoDraw = False
+94.4219 	EXP 	cir6: autoDraw = True
+94.4718 	EXP 	cir6: autoDraw = False
+94.5721 	EXP 	holdFix: autoDraw = False
+94.5721 	EXP 	holdFix: autoDraw = False
+94.5721 	EXP 	cir1: autoDraw = False
+94.5721 	EXP 	cir2: autoDraw = False
+94.5721 	EXP 	cir3: autoDraw = False
+94.5721 	EXP 	cir4: autoDraw = False
+94.5721 	EXP 	cir5: autoDraw = False
+94.5721 	EXP 	cir6: autoDraw = False
+94.5721 	EXP 	text: autoDraw = True
+95.8823 	EXP 	text: autoDraw = False
+95.8823 	EXP 	text: autoDraw = False
+95.8823 	EXP 	cir1_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+95.8823 	EXP 	cir2_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+95.8823 	EXP 	cir3_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+95.8823 	EXP 	cir4_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+95.8823 	EXP 	cir5_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+95.8823 	EXP 	cir6_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+95.8823 	EXP 	holdFix_i2: autoDraw = True
+95.9824 	EXP 	Sound audioTrialSound_i2 started
+95.9924 	EXP 	cir1_i2: autoDraw = True
+96.2924 	EXP 	cir1_i2: autoDraw = False
+96.4124 	EXP 	cir2_i2: autoDraw = True
+96.4625 	EXP 	cir2_i2: autoDraw = False
+96.5825 	EXP 	cir3_i2: autoDraw = True
+96.6326 	EXP 	cir3_i2: autoDraw = False
+96.7527 	EXP 	cir4_i2: autoDraw = True
+97.0527 	EXP 	cir4_i2: autoDraw = False
+97.1727 	EXP 	cir5_i2: autoDraw = True
+97.4161 	EXP 	Sound audioTrialSound_i2 reached end of file
+97.4727 	EXP 	cir5_i2: autoDraw = False
+97.5928 	EXP 	cir6_i2: autoDraw = True
+97.6429 	EXP 	cir6_i2: autoDraw = False
+98.2430 	EXP 	holdFix_i2: autoDraw = False
+98.2430 	EXP 	holdFix_i2: autoDraw = False
+98.2430 	EXP 	cir1_i2: autoDraw = False
+98.2430 	EXP 	cir2_i2: autoDraw = False
+98.2430 	EXP 	cir3_i2: autoDraw = False
+98.2430 	EXP 	cir4_i2: autoDraw = False
+98.2430 	EXP 	cir5_i2: autoDraw = False
+98.2430 	EXP 	cir6_i2: autoDraw = False
+98.2430 	EXP 	promptTxt: autoDraw = True
+98.5825 	DATA 	Keypress: 1
+98.5931 	EXP 	promptTxt: autoDraw = False
+98.5931 	EXP 	text_5: height = 0.05000000000000001
+98.5931 	EXP 	text_5: height = 0.05000000000000001
+98.5931 	EXP 	text_5: height = 0.05000000000000001
+98.5931 	EXP 	text_5: text = 1
+98.5931 	EXP 	text_5: autoDraw = True
+100.0840 	EXP 	New trial (rep=0, index=7): OrderedDict([('rhythm', 11), ('stim1', 2), ('stim2', 1), ('stim3', 1), ('stim4', 2), ('stim5', 2), ('stim6', 1), ('stim1Start', 11), ('stim1End', 41), ('stim2Start', 53), ('stim2End', 58), ('stim3Start', 70), ('stim3End', 75), ('stim4Start', 87), ('stim4End', 117), ('stim5Start', 129), ('stim5End', 159), ('stim6Start', 171), ('stim6End', 176), ('audFile', '12_audFile.wav'), ('audStart', 10), ('similCat', 2), ('rhythm_i2', 14), ('stim1_i2', 2), ('stim2_i2', 1), ('stim3_i2', 1), ('stim4_i2', 2), ('stim5_i2', 1), ('stim6_i2', 2), ('stim1Start_i2', 11), ('stim1End_i2', 41), ('stim2Start_i2', 53), ('stim2End_i2', 58), ('stim3Start_i2', 70), ('stim3End_i2', 75), ('stim4Start_i2', 87), ('stim4End_i2', 117), ('stim5Start_i2', 129), ('stim5End_i2', 134), ('stim6Start_i2', 146), ('stim6End_i2', 176), ('audFile_i2', '15_audFile.wav'), ('audStart_i2', 10), ('similCat_i2', 2), ('setVol', 1), ('corrMatchAnswer', 2)])
+100.0935 	EXP 	text_5: autoDraw = False
+100.0935 	EXP 	text_2: autoDraw = True
+100.2737 	EXP 	preFix: autoDraw = True
+101.2738 	EXP 	preFix: autoDraw = False
+101.2942 	EXP 	text_2: autoDraw = False
+101.2942 	EXP 	preFix: autoDraw = False
+101.2942 	EXP 	cir1: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+101.2942 	EXP 	cir2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+101.2942 	EXP 	cir3: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+101.2942 	EXP 	cir4: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+101.2942 	EXP 	cir5: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+101.2942 	EXP 	cir6: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+101.2942 	EXP 	holdFix: autoDraw = True
+101.3939 	EXP 	Sound audioTrialSound started
+101.4039 	EXP 	cir1: autoDraw = True
+101.7039 	EXP 	cir1: autoDraw = False
+101.8240 	EXP 	cir2: autoDraw = True
+101.8740 	EXP 	cir2: autoDraw = False
+101.9940 	EXP 	cir3: autoDraw = True
+102.0441 	EXP 	cir3: autoDraw = False
+102.1641 	EXP 	cir4: autoDraw = True
+102.4642 	EXP 	cir4: autoDraw = False
+102.5842 	EXP 	cir5: autoDraw = True
+102.8273 	EXP 	Sound audioTrialSound reached end of file
+102.8844 	EXP 	cir5: autoDraw = False
+103.0044 	EXP 	cir6: autoDraw = True
+103.0543 	EXP 	cir6: autoDraw = False
+103.1544 	EXP 	holdFix: autoDraw = False
+103.1544 	EXP 	holdFix: autoDraw = False
+103.1544 	EXP 	cir1: autoDraw = False
+103.1544 	EXP 	cir2: autoDraw = False
+103.1544 	EXP 	cir3: autoDraw = False
+103.1544 	EXP 	cir4: autoDraw = False
+103.1544 	EXP 	cir5: autoDraw = False
+103.1544 	EXP 	cir6: autoDraw = False
+103.1544 	EXP 	text: autoDraw = True
+104.4648 	EXP 	text: autoDraw = False
+104.4648 	EXP 	text: autoDraw = False
+104.4648 	EXP 	cir1_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+104.4648 	EXP 	cir2_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+104.4648 	EXP 	cir3_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+104.4648 	EXP 	cir4_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+104.4648 	EXP 	cir5_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+104.4648 	EXP 	cir6_i2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+104.4648 	EXP 	holdFix_i2: autoDraw = True
+104.5648 	EXP 	Sound audioTrialSound_i2 started
+104.5748 	EXP 	cir1_i2: autoDraw = True
+104.8750 	EXP 	cir1_i2: autoDraw = False
+104.9949 	EXP 	cir2_i2: autoDraw = True
+105.0450 	EXP 	cir2_i2: autoDraw = False
+105.1650 	EXP 	cir3_i2: autoDraw = True
+105.2149 	EXP 	cir3_i2: autoDraw = False
+105.3351 	EXP 	cir4_i2: autoDraw = True
+105.6351 	EXP 	cir4_i2: autoDraw = False
+105.7553 	EXP 	cir5_i2: autoDraw = True
+105.8051 	EXP 	cir5_i2: autoDraw = False
+105.9251 	EXP 	cir6_i2: autoDraw = True
+105.9982 	EXP 	Sound audioTrialSound_i2 reached end of file
+106.2255 	EXP 	cir6_i2: autoDraw = False
+106.8254 	EXP 	holdFix_i2: autoDraw = False
+106.8254 	EXP 	holdFix_i2: autoDraw = False
+106.8254 	EXP 	cir1_i2: autoDraw = False
+106.8254 	EXP 	cir2_i2: autoDraw = False
+106.8254 	EXP 	cir3_i2: autoDraw = False
+106.8254 	EXP 	cir4_i2: autoDraw = False
+106.8254 	EXP 	cir5_i2: autoDraw = False
+106.8254 	EXP 	cir6_i2: autoDraw = False
+106.8254 	EXP 	promptTxt: autoDraw = True
+115.7516 	DATA 	Keypress: escape
+115.7554 	DATA 	Keypress: quoteleft
+116.8693 	EXP 	window1: mouseVisible = True

@@ -1,0 +1,8 @@
+﻿SpeakerOrderL2R,targetSpeakerName,targetSpeakerEccen,targetSpkrChannel,targetVisualDegrees,trueVisualLocation_pixels,trueAudioLocation_pixels,trueVisualLocation_proportion,trueAudioLocation_proportion
+1,farLeft,-19.1,5,-19.1,667,656,1.352910053,1.347089947
+2,midLeft,-13,2,-13,762,748,1.403174603,1.395767196
+3,nearLeft,-6.5,1,-6.5,857,840,1.453439153,1.444444444
+4,center,0,6,0,952,937,1.503703704,1.495767196
+5,nearRight,6.5,0,6.5,1047,1034,1.553968254,1.547089947
+6,midRight,13,3,13,1142,1128,1.604232804,1.596825397
+7,farRight,19.1,4,19.1,1237,1227,1.654497354,1.649206349

@@ -1,0 +1,1343 @@
+1.5689 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['pyo'] (in that order).
+10.9637 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fb059694b00>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fb05856a518>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.9640 	EXP 	window1: mouseVisible = True
+10.9641 	EXP 	window1: recordFrameIntervals = False
+11.1267 	EXP 	window1: recordFrameIntervals = True
+11.3100 	EXP 	window1: recordFrameIntervals = False
+11.8913 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Press space to begin', units='height', win=Window(...), wrapWidth=1)
+11.9519 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='text_3', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.9827 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_5', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.9938 	EXP 	Created fixCross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.075, italic=False, languageStyle='LTR', name='fixCross', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+12.0000 	EXP 	Created fixCross2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.075, italic=False, languageStyle='LTR', name='fixCross2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+12.0252 	EXP 	Created answerPrompt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='answerPrompt', opacity=1, ori=0.0, pos=array([0.  , 0.15]), rgb=UNKNOWN, text='Type the word you heard:', units='height', win=Window(...), wrapWidth=1)
+12.0592 	EXP 	Created stretchBreakTxrt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='stretchBreakTxrt', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+12.0851 	EXP 	Created fixCross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.075, italic=False, languageStyle='LTR', name='fixCross', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+12.0891 	EXP 	Created fixCross2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.075, italic=False, languageStyle='LTR', name='fixCross2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+12.0944 	EXP 	Created answerPrompt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='answerPrompt', opacity=1, ori=0.0, pos=array([0.  , 0.15]), rgb=UNKNOWN, text='Type the word you heard:', units='height', win=Window(...), wrapWidth=1)
+12.1550 	EXP 	Created exitTxt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='exitTxt', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+13.2936 	EXP 	getAnswer: autoLog = True
+13.2936 	EXP 	getAnswer: autoLog = True
+13.3764 	EXP 	text_2: autoDraw = True
+14.4501 	DATA 	Keypress: space
+14.4764 	EXP 	text_2: autoDraw = False
+14.4764 	EXP 	text_3: autoDraw = True
+16.3209 	EXP 	Imported practiceForSpeech_CM_102722.xlsx as conditions, 2 conditions, 8 params
+16.3216 	EXP 	Created sequence: sequential, trialTypes=2, nReps=1, seed=None
+16.3222 	EXP 	New trial (rep=0, index=0): {'Audio_Only_Files': 'ash.wav', 'Video_Files': 'ash.mpg', 'Original_Word_List': 'ash', 'noiseLevelCode': 1, 'conditionCodes': 'A', 'noiseLevelFile1': 'Pink_Noise_1_1.wav', 'noiseLevelFile2': 'Pink_Noise_1_2.wav', 'InstrTextVar': 'This is an example of an\n\nAUDIO trial'}
+16.3418 	DATA 	Keypress: space
+16.3587 	EXP 	text_3: autoDraw = False
+16.3587 	EXP 	text_5: text = 'This is an example of an\n\nAUDIO trial'
+16.3587 	EXP 	text_5: autoDraw = True
+17.3257 	EXP 	text_5: autoDraw = False
+17.3257 	EXP 	fixCross: autoDraw = True
+18.7497 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='ash.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+24.3984 	EXP 	Set  sound=C
+24.4059 	EXP 	Set  sound=[[ 0.00000000e+00  0.00000000e+00]
+ [-3.05175781e-05  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00]
+ ...
+ [ 7.32421875e-04  7.93457031e-04]
+ [ 6.71386719e-04  3.66210938e-04]
+ [ 5.79833984e-04  6.10351562e-05]]
+24.4308 	EXP 	Sound  started
+24.4595 	EXP 	fixCross: autoDraw = False
+24.4595 	EXP 	fixCross: autoDraw = False
+24.4595 	EXP 	movieToShow: autoLog = True
+24.4595 	EXP 	movieToShow: movie = 'ash.mpg'
+24.4595 	EXP 	movieToShow: size = array([0., 0.])
+24.4595 	EXP 	movieToShow: ori = 0.0
+24.4595 	EXP 	fixCross2: autoDraw = True
+24.4595 	EXP 	movieToShow: autoDraw = True
+25.8252 	EXP 	Set movieToShow finished
+25.8422 	EXP 	fixCross2: autoDraw = False
+25.8422 	EXP 	movieToShow: autoDraw = False
+25.8422 	EXP 	answerPrompt: autoDraw = True
+25.8422 	EXP 	getAnswer: autoDraw = True
+31.4231 	DATA 	Keypress: a
+31.5359 	DATA 	Keypress: s
+31.7392 	DATA 	Keypress: h
+32.0523 	DATA 	Keypress: e
+32.8039 	DATA 	Keypress: return
+32.8277 	EXP 	New trial (rep=0, index=1): {'Audio_Only_Files': 'ash.wav', 'Video_Files': 'ash.mpg', 'Original_Word_List': 'ash', 'noiseLevelCode': 1, 'conditionCodes': 'AV', 'noiseLevelFile1': 'Pink_Noise_1_1.wav', 'noiseLevelFile2': 'Pink_Noise_1_2.wav', 'InstrTextVar': 'This is an example of an\n\nAUDIO + VIDEO  trial'}
+32.8584 	EXP 	answerPrompt: autoDraw = False
+32.8584 	EXP 	getAnswer: autoDraw = False
+32.8584 	EXP 	text_5: text = 'This is an example of an\n\nAUDIO + VIDEO  trial'
+32.8584 	EXP 	text_5: autoDraw = True
+33.8591 	EXP 	text_5: autoDraw = False
+33.8591 	EXP 	fixCross: autoDraw = True
+35.1946 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='ash.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+35.3412 	EXP 	Set  sound=[[ 0.00000000e+00  0.00000000e+00]
+ [-3.05175781e-05  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00]
+ ...
+ [ 7.32421875e-04  7.93457031e-04]
+ [ 6.71386719e-04  3.66210938e-04]
+ [ 5.79833984e-04  6.10351562e-05]]
+35.3443 	EXP 	Sound  stopped
+35.3450 	EXP 	Sound  started
+35.3589 	EXP 	fixCross: autoDraw = False
+35.3589 	EXP 	movieToShow: autoLog = True
+35.3589 	EXP 	movieToShow: movie = 'ash.mpg'
+35.3589 	EXP 	movieToShow: size = array([360., 240.])
+35.3589 	EXP 	movieToShow: ori = 0.0
+35.3589 	EXP 	fixCross2: autoDraw = True
+35.3589 	EXP 	movieToShow: autoDraw = True
+36.7256 	EXP 	Set movieToShow finished
+36.7422 	EXP 	fixCross2: autoDraw = False
+36.7422 	EXP 	movieToShow: autoDraw = False
+36.7422 	EXP 	answerPrompt: autoDraw = True
+36.7422 	EXP 	getAnswer: autoDraw = True
+38.4170 	DATA 	Keypress: a
+38.5164 	DATA 	Keypress: s
+38.6489 	DATA 	Keypress: h
+38.8356 	DATA 	Keypress: e
+41.1819 	DATA 	Keypress: backspace
+44.3214 	DATA 	Keypress: return
+44.3419 	EXP 	answerPrompt: autoDraw = False
+44.3419 	EXP 	getAnswer: autoDraw = False
+44.3419 	EXP 	stretchBreakTxrt: text = 'The rest of the task will be similar to this! It will take approximately 15 minutes to complete, so please take a break to stretch now.\n\nPress space when you are ready to begin.'
+44.3419 	EXP 	stretchBreakTxrt: autoDraw = True
+48.0145 	EXP 	Imported /Users/shamslab/Desktop/CM_SpeechTask_Mach2_102422/6_speechCondFileFewerNoise.csv as conditions, 120 conditions, 7 params
+48.0157 	EXP 	Created sequence: random, trialTypes=120, nReps=1, seed=None
+48.0162 	EXP 	New trial (rep=0, index=0): OrderedDict([('Audio_Only_Files', 'fierce.wav'), ('Video_Files', 'fierce.mpg'), ('Original_Word_List', 'fierce'), ('noiseLevelCode', 2), ('conditionCodes', 'AV'), ('noiseLevelFile1', 'Pink_Noise_2_1.wav'), ('noiseLevelFile2', 'Pink_Noise_2_2.wav')])
+48.0245 	DATA 	Keypress: space
+48.0421 	EXP 	stretchBreakTxrt: autoDraw = False
+48.0421 	EXP 	fixCross: autoDraw = True
+49.3614 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='fierce.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+49.5909 	EXP 	Set  sound=[[ 0.00000000e+00  0.00000000e+00]
+ [-3.05175781e-05  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00]
+ ...
+ [-3.54003906e-03 -3.23486328e-03]
+ [-3.57055664e-03 -3.32641602e-03]
+ [-2.89916992e-03 -2.89916992e-03]]
+49.5934 	EXP 	Sound  stopped
+49.5941 	EXP 	Sound  started
+49.6089 	EXP 	fixCross: autoDraw = False
+49.6089 	EXP 	movieToShow: autoLog = True
+49.6089 	EXP 	movieToShow: movie = 'fierce.mpg'
+49.6089 	EXP 	movieToShow: size = array([360., 240.])
+49.6089 	EXP 	movieToShow: ori = 0.0
+49.6089 	EXP 	fixCross2: autoDraw = True
+49.6089 	EXP 	movieToShow: autoDraw = True
+50.9756 	EXP 	Set movieToShow finished
+50.9924 	EXP 	fixCross2: autoDraw = False
+50.9924 	EXP 	movieToShow: autoDraw = False
+50.9924 	EXP 	answerPrompt: autoDraw = True
+50.9924 	EXP 	getAnswer: autoDraw = True
+52.0024 	DATA 	Keypress: f
+52.2188 	DATA 	Keypress: i
+52.3991 	DATA 	Keypress: e
+52.4694 	DATA 	Keypress: r
+52.7680 	DATA 	Keypress: c
+52.8836 	DATA 	Keypress: e
+53.8135 	EXP 	New trial (rep=0, index=1): OrderedDict([('Audio_Only_Files', 'club.wav'), ('Video_Files', 'club.mpg'), ('Original_Word_List', 'club'), ('noiseLevelCode', 3), ('conditionCodes', 'A'), ('noiseLevelFile1', 'Pink_Noise_3_1.wav'), ('noiseLevelFile2', 'Pink_Noise_3_2.wav')])
+53.8179 	DATA 	Keypress: return
+53.8264 	EXP 	answerPrompt: autoDraw = False
+53.8264 	EXP 	getAnswer: autoDraw = False
+53.8264 	EXP 	fixCross: autoDraw = True
+55.1612 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='club.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+55.3093 	EXP 	Set  sound=[[ 0.00000000e+00  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00]
+ ...
+ [-9.15527344e-05 -3.96728516e-04]
+ [ 1.83105469e-04  2.74658203e-04]
+ [ 1.12915039e-03  1.34277344e-03]]
+55.3121 	EXP 	Sound  stopped
+55.3129 	EXP 	Sound  started
+55.3262 	EXP 	fixCross: autoDraw = False
+55.3262 	EXP 	fixCross: autoDraw = False
+55.3262 	EXP 	movieToShow: autoLog = True
+55.3262 	EXP 	movieToShow: movie = 'club.mpg'
+55.3262 	EXP 	movieToShow: size = array([0., 0.])
+55.3262 	EXP 	movieToShow: ori = 0.0
+55.3262 	EXP 	fixCross2: autoDraw = True
+55.3262 	EXP 	movieToShow: autoDraw = True
+56.6443 	WARNING 	1.2980106663308106: Video catchup needed, advancing self._nextFrameT from 1.2012000000000005 to 1.2345666666666673
+56.7092 	EXP 	Set movieToShow finished
+56.7262 	EXP 	fixCross2: autoDraw = False
+56.7262 	EXP 	movieToShow: autoDraw = False
+56.7262 	EXP 	answerPrompt: autoDraw = True
+56.7262 	EXP 	getAnswer: autoDraw = True
+57.7662 	DATA 	Keypress: c
+58.0184 	DATA 	Keypress: l
+58.3535 	DATA 	Keypress: u
+58.5903 	DATA 	Keypress: b
+59.2169 	DATA 	Keypress: return
+59.2271 	EXP 	New trial (rep=0, index=2): OrderedDict([('Audio_Only_Files', 'bug.wav'), ('Video_Files', 'bug.mpg'), ('Original_Word_List', 'bug'), ('noiseLevelCode', 4), ('conditionCodes', 'A'), ('noiseLevelFile1', 'Pink_Noise_4_1.wav'), ('noiseLevelFile2', 'Pink_Noise_4_2.wav')])
+59.2422 	EXP 	answerPrompt: autoDraw = False
+59.2422 	EXP 	getAnswer: autoDraw = False
+59.2422 	EXP 	fixCross: autoDraw = True
+60.5781 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='bug.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+60.7183 	EXP 	Set  sound=[[ 0.          0.        ]
+ [ 0.          0.        ]
+ [ 0.          0.        ]
+ ...
+ [-0.00088501 -0.00097656]
+ [-0.00128174 -0.00085449]
+ [-0.00088501 -0.00042725]]
+60.7211 	EXP 	Sound  stopped
+60.7218 	EXP 	Sound  started
+60.7420 	EXP 	fixCross: autoDraw = False
+60.7420 	EXP 	fixCross: autoDraw = False
+60.7420 	EXP 	movieToShow: autoLog = True
+60.7420 	EXP 	movieToShow: movie = 'bug.mpg'
+60.7420 	EXP 	movieToShow: size = array([0., 0.])
+60.7420 	EXP 	movieToShow: ori = 0.0
+60.7420 	EXP 	fixCross2: autoDraw = True
+60.7420 	EXP 	movieToShow: autoDraw = True
+62.1088 	EXP 	Set movieToShow finished
+62.1256 	EXP 	fixCross2: autoDraw = False
+62.1256 	EXP 	movieToShow: autoDraw = False
+62.1256 	EXP 	answerPrompt: autoDraw = True
+62.1256 	EXP 	getAnswer: autoDraw = True
+65.7823 	DATA 	Keypress: c
+65.8838 	DATA 	Keypress: l
+66.3002 	DATA 	Keypress: u
+66.5851 	DATA 	Keypress: b
+67.4328 	DATA 	Keypress: backspace
+67.6015 	DATA 	Keypress: backspace
+67.7485 	DATA 	Keypress: backspace
+67.9176 	DATA 	Keypress: backspace
+68.8351 	DATA 	Keypress: b
+68.9851 	DATA 	Keypress: u
+69.1741 	DATA 	Keypress: g
+69.8782 	EXP 	New trial (rep=0, index=3): OrderedDict([('Audio_Only_Files', 'swamp.wav'), ('Video_Files', 'swamp.mpg'), ('Original_Word_List', 'swamp'), ('noiseLevelCode', 1), ('conditionCodes', 'A'), ('noiseLevelFile1', 'Pink_Noise_1_1.wav'), ('noiseLevelFile2', 'Pink_Noise_1_2.wav')])
+69.8837 	DATA 	Keypress: return
+69.8925 	EXP 	answerPrompt: autoDraw = False
+69.8925 	EXP 	getAnswer: autoDraw = False
+69.8925 	EXP 	fixCross: autoDraw = True
+71.2280 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='swamp.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+71.3745 	EXP 	Set  sound=[[0.         0.        ]
+ [0.         0.        ]
+ [0.         0.        ]
+ ...
+ [0.00036621 0.00021362]
+ [0.00112915 0.00134277]
+ [0.00115967 0.00149536]]
+71.3770 	EXP 	Sound  stopped
+71.3776 	EXP 	Sound  started
+71.3919 	EXP 	fixCross: autoDraw = False
+71.3919 	EXP 	fixCross: autoDraw = False
+71.3919 	EXP 	movieToShow: autoLog = True
+71.3919 	EXP 	movieToShow: movie = 'swamp.mpg'
+71.3919 	EXP 	movieToShow: size = array([0., 0.])
+71.3919 	EXP 	movieToShow: ori = 0.0
+71.3919 	EXP 	fixCross2: autoDraw = True
+71.3919 	EXP 	movieToShow: autoDraw = True
+72.7589 	EXP 	Set movieToShow finished
+72.7756 	EXP 	fixCross2: autoDraw = False
+72.7756 	EXP 	movieToShow: autoDraw = False
+72.7756 	EXP 	answerPrompt: autoDraw = True
+72.7756 	EXP 	getAnswer: autoDraw = True
+73.6205 	DATA 	Keypress: s
+73.9856 	DATA 	Keypress: w
+74.2669 	DATA 	Keypress: a
+74.7014 	DATA 	Keypress: m
+74.9024 	DATA 	Keypress: p
+75.6606 	EXP 	New trial (rep=0, index=4): OrderedDict([('Audio_Only_Files', 'jam.wav'), ('Video_Files', 'jam.mpg'), ('Original_Word_List', 'jam'), ('noiseLevelCode', 1), ('conditionCodes', 'A'), ('noiseLevelFile1', 'Pink_Noise_1_1.wav'), ('noiseLevelFile2', 'Pink_Noise_1_2.wav')])
+75.6646 	DATA 	Keypress: return
+75.6756 	EXP 	answerPrompt: autoDraw = False
+75.6756 	EXP 	getAnswer: autoDraw = False
+75.6756 	EXP 	fixCross: autoDraw = True
+77.0111 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='jam.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+77.2001 	EXP 	Set  sound=[[ 0.00000000e+00  0.00000000e+00]
+ [-3.05175781e-05  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00]
+ ...
+ [ 1.31225586e-03  1.09863281e-03]
+ [ 1.77001953e-03  1.64794922e-03]
+ [ 1.52587891e-03  1.61743164e-03]]
+77.2033 	EXP 	Sound  stopped
+77.2041 	EXP 	Sound  started
+77.2254 	EXP 	fixCross: autoDraw = False
+77.2254 	EXP 	fixCross: autoDraw = False
+77.2254 	EXP 	movieToShow: autoLog = True
+77.2254 	EXP 	movieToShow: movie = 'jam.mpg'
+77.2254 	EXP 	movieToShow: size = array([0., 0.])
+77.2254 	EXP 	movieToShow: ori = 0.0
+77.2254 	EXP 	fixCross2: autoDraw = True
+77.2254 	EXP 	movieToShow: autoDraw = True
+78.5922 	EXP 	Set movieToShow finished
+78.6089 	EXP 	fixCross2: autoDraw = False
+78.6089 	EXP 	movieToShow: autoDraw = False
+78.6089 	EXP 	answerPrompt: autoDraw = True
+78.6089 	EXP 	getAnswer: autoDraw = True
+79.1861 	DATA 	Keypress: j
+79.3674 	DATA 	Keypress: a
+79.5000 	DATA 	Keypress: m
+80.2940 	EXP 	New trial (rep=0, index=5): OrderedDict([('Audio_Only_Files', 'dawn.wav'), ('Video_Files', 'dawn.mpg'), ('Original_Word_List', 'dawn'), ('noiseLevelCode', 1), ('conditionCodes', 'AV'), ('noiseLevelFile1', 'Pink_Noise_1_1.wav'), ('noiseLevelFile2', 'Pink_Noise_1_2.wav')])
+80.2979 	DATA 	Keypress: return
+80.3090 	EXP 	answerPrompt: autoDraw = False
+80.3090 	EXP 	getAnswer: autoDraw = False
+80.3090 	EXP 	fixCross: autoDraw = True
+81.6451 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='dawn.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+81.7885 	EXP 	Set  sound=[[0.         0.        ]
+ [0.         0.        ]
+ [0.         0.        ]
+ ...
+ [0.00268555 0.00262451]
+ [0.00210571 0.00201416]
+ [0.00177002 0.00170898]]
+81.7907 	EXP 	Sound  stopped
+81.7913 	EXP 	Sound  started
+81.8087 	EXP 	fixCross: autoDraw = False
+81.8087 	EXP 	fixCross: autoDraw = False
+81.8087 	EXP 	movieToShow: autoLog = True
+81.8087 	EXP 	movieToShow: movie = 'dawn.mpg'
+81.8087 	EXP 	movieToShow: size = array([360., 240.])
+81.8087 	EXP 	movieToShow: ori = 0.0
+81.8087 	EXP 	fixCross2: autoDraw = True
+81.8087 	EXP 	movieToShow: autoDraw = True
+83.0940 	WARNING 	1.2692580503353383: Video catchup needed, advancing self._nextFrameT from 1.2012000000000005 to 1.2345666666666673
+83.1779 	WARNING 	1.3531414773315191: Video catchup needed, advancing self._nextFrameT from 1.267933333333334 to 1.3013000000000008
+83.2091 	EXP 	Set movieToShow finished
+83.2262 	EXP 	fixCross2: autoDraw = False
+83.2262 	EXP 	movieToShow: autoDraw = False
+83.2262 	EXP 	answerPrompt: autoDraw = True
+83.2262 	EXP 	getAnswer: autoDraw = True
+83.9239 	DATA 	Keypress: d
+84.8490 	DATA 	Keypress: a
+85.6339 	DATA 	Keypress: w
+85.8193 	DATA 	Keypress: n
+86.9948 	EXP 	New trial (rep=0, index=6): OrderedDict([('Audio_Only_Files', 'fame.wav'), ('Video_Files', 'fame.mpg'), ('Original_Word_List', 'fame'), ('noiseLevelCode', 4), ('conditionCodes', 'AV'), ('noiseLevelFile1', 'Pink_Noise_4_1.wav'), ('noiseLevelFile2', 'Pink_Noise_4_2.wav')])
+87.0004 	DATA 	Keypress: return
+87.0094 	EXP 	answerPrompt: autoDraw = False
+87.0094 	EXP 	getAnswer: autoDraw = False
+87.0094 	EXP 	fixCross: autoDraw = True
+88.3447 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='fame.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+88.4847 	EXP 	Set  sound=[[ 0.          0.        ]
+ [ 0.          0.        ]
+ [ 0.          0.        ]
+ ...
+ [-0.00372314 -0.00387573]
+ [-0.00405884 -0.00430298]
+ [-0.00439453 -0.00457764]]
+88.4872 	EXP 	Sound  stopped
+88.4880 	EXP 	Sound  started
+88.5088 	EXP 	fixCross: autoDraw = False
+88.5088 	EXP 	fixCross: autoDraw = False
+88.5088 	EXP 	movieToShow: autoLog = True
+88.5088 	EXP 	movieToShow: movie = 'fame.mpg'
+88.5088 	EXP 	movieToShow: size = array([360., 240.])
+88.5088 	EXP 	movieToShow: ori = 0.0
+88.5088 	EXP 	fixCross2: autoDraw = True
+88.5088 	EXP 	movieToShow: autoDraw = True
+88.6776 	WARNING 	0.15612947335466743: Video catchup needed, advancing self._nextFrameT from 0.06673333333333334 to 0.10010000000000001
+89.8757 	EXP 	Set movieToShow finished
+89.8923 	EXP 	fixCross2: autoDraw = False
+89.8923 	EXP 	movieToShow: autoDraw = False
+89.8923 	EXP 	answerPrompt: autoDraw = True
+89.8923 	EXP 	getAnswer: autoDraw = True
+90.8503 	DATA 	Keypress: f
+91.0664 	DATA 	Keypress: a
+91.3997 	DATA 	Keypress: m
+91.5661 	DATA 	Keypress: e
+91.9439 	EXP 	New trial (rep=0, index=7): OrderedDict([('Audio_Only_Files', 'glow.wav'), ('Video_Files', 'glow.mpg'), ('Original_Word_List', 'glow'), ('noiseLevelCode', 1), ('conditionCodes', 'AV'), ('noiseLevelFile1', 'Pink_Noise_1_1.wav'), ('noiseLevelFile2', 'Pink_Noise_1_2.wav')])
+91.9481 	DATA 	Keypress: return
+91.9589 	EXP 	answerPrompt: autoDraw = False
+91.9589 	EXP 	getAnswer: autoDraw = False
+91.9589 	EXP 	fixCross: autoDraw = True
+93.2950 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='glow.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+93.4330 	EXP 	Set  sound=[[0.         0.        ]
+ [0.         0.        ]
+ [0.         0.        ]
+ ...
+ [0.00109863 0.00076294]
+ [0.00097656 0.0007019 ]
+ [0.00045776 0.00039673]]
+93.4352 	EXP 	Sound  stopped
+93.4360 	EXP 	Sound  started
+93.4587 	EXP 	fixCross: autoDraw = False
+93.4587 	EXP 	fixCross: autoDraw = False
+93.4587 	EXP 	movieToShow: autoLog = True
+93.4587 	EXP 	movieToShow: movie = 'glow.mpg'
+93.4587 	EXP 	movieToShow: size = array([360., 240.])
+93.4587 	EXP 	movieToShow: ori = 0.0
+93.4587 	EXP 	fixCross2: autoDraw = True
+93.4587 	EXP 	movieToShow: autoDraw = True
+94.8255 	EXP 	Set movieToShow finished
+94.8422 	EXP 	fixCross2: autoDraw = False
+94.8422 	EXP 	movieToShow: autoDraw = False
+94.8422 	EXP 	answerPrompt: autoDraw = True
+94.8422 	EXP 	getAnswer: autoDraw = True
+95.7329 	DATA 	Keypress: g
+96.2831 	DATA 	Keypress: l
+96.5217 	DATA 	Keypress: o
+97.7508 	DATA 	Keypress: w
+98.1272 	EXP 	New trial (rep=0, index=8): OrderedDict([('Audio_Only_Files', 'drug.wav'), ('Video_Files', 'drug.mpg'), ('Original_Word_List', 'drug'), ('noiseLevelCode', 3), ('conditionCodes', 'AV'), ('noiseLevelFile1', 'Pink_Noise_3_1.wav'), ('noiseLevelFile2', 'Pink_Noise_3_2.wav')])
+98.1311 	DATA 	Keypress: return
+98.1426 	EXP 	answerPrompt: autoDraw = False
+98.1426 	EXP 	getAnswer: autoDraw = False
+98.1426 	EXP 	fixCross: autoDraw = True
+99.4778 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='drug.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+99.6165 	EXP 	Set  sound=[[ 0.00000000e+00  0.00000000e+00]
+ [-3.05175781e-05  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00]
+ ...
+ [ 1.31225586e-03  1.00708008e-03]
+ [ 9.46044922e-04  8.23974609e-04]
+ [ 5.18798828e-04  6.71386719e-04]]
+99.6187 	EXP 	Sound  stopped
+99.6194 	EXP 	Sound  started
+99.6419 	EXP 	fixCross: autoDraw = False
+99.6419 	EXP 	fixCross: autoDraw = False
+99.6419 	EXP 	movieToShow: autoLog = True
+99.6419 	EXP 	movieToShow: movie = 'drug.mpg'
+99.6419 	EXP 	movieToShow: size = array([360., 240.])
+99.6419 	EXP 	movieToShow: ori = 0.0
+99.6419 	EXP 	fixCross2: autoDraw = True
+99.6419 	EXP 	movieToShow: autoDraw = True
+101.0088 	EXP 	Set movieToShow finished
+101.0255 	EXP 	fixCross2: autoDraw = False
+101.0255 	EXP 	movieToShow: autoDraw = False
+101.0255 	EXP 	answerPrompt: autoDraw = True
+101.0255 	EXP 	getAnswer: autoDraw = True
+102.5828 	DATA 	Keypress: d
+102.6828 	DATA 	Keypress: r
+103.1173 	DATA 	Keypress: u
+103.3686 	DATA 	Keypress: g
+103.9447 	EXP 	New trial (rep=0, index=9): OrderedDict([('Audio_Only_Files', 'lie.wav'), ('Video_Files', 'lie.mpg'), ('Original_Word_List', 'lie'), ('noiseLevelCode', 5), ('conditionCodes', 'A'), ('noiseLevelFile1', 'Pink_Noise_5_1.wav'), ('noiseLevelFile2', 'Pink_Noise_5_2.wav')])
+103.9491 	DATA 	Keypress: return
+103.9588 	EXP 	answerPrompt: autoDraw = False
+103.9588 	EXP 	getAnswer: autoDraw = False
+103.9588 	EXP 	fixCross: autoDraw = True
+105.2943 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='lie.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+105.4329 	EXP 	Set  sound=[[ 0.          0.        ]
+ [ 0.          0.        ]
+ [ 0.          0.        ]
+ ...
+ [-0.00036621 -0.00030518]
+ [-0.00186157 -0.00137329]
+ [-0.0020752  -0.00140381]]
+105.4351 	EXP 	Sound  stopped
+105.4357 	EXP 	Sound  started
+105.4590 	EXP 	fixCross: autoDraw = False
+105.4590 	EXP 	fixCross: autoDraw = False
+105.4590 	EXP 	movieToShow: autoLog = True
+105.4590 	EXP 	movieToShow: movie = 'lie.mpg'
+105.4590 	EXP 	movieToShow: size = array([0., 0.])
+105.4590 	EXP 	movieToShow: ori = 0.0
+105.4590 	EXP 	fixCross2: autoDraw = True
+105.4590 	EXP 	movieToShow: autoDraw = True
+106.1778 	WARNING 	0.7086312213214114: Video catchup needed, advancing self._nextFrameT from 0.6005999999999999 to 0.6339666666666666
+106.1779 	WARNING 	0.7086997293226887: Video catchup needed, advancing self._nextFrameT from 0.6339666666666666 to 0.6673333333333332
+106.8256 	EXP 	Set movieToShow finished
+106.8424 	EXP 	fixCross2: autoDraw = False
+106.8424 	EXP 	movieToShow: autoDraw = False
+106.8424 	EXP 	answerPrompt: autoDraw = True
+106.8424 	EXP 	getAnswer: autoDraw = True
+108.0024 	DATA 	Keypress: l
+108.2666 	DATA 	Keypress: i
+108.6652 	DATA 	Keypress: e
+109.1777 	EXP 	New trial (rep=0, index=10): OrderedDict([('Audio_Only_Files', 'bye.wav'), ('Video_Files', 'bye.mpg'), ('Original_Word_List', 'bye'), ('noiseLevelCode', 3), ('conditionCodes', 'A'), ('noiseLevelFile1', 'Pink_Noise_3_1.wav'), ('noiseLevelFile2', 'Pink_Noise_3_2.wav')])
+109.1818 	DATA 	Keypress: return
+109.1922 	EXP 	answerPrompt: autoDraw = False
+109.1922 	EXP 	getAnswer: autoDraw = False
+109.1922 	EXP 	fixCross: autoDraw = True
+110.5282 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='bye.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+110.7734 	EXP 	Set  sound=[[ 0.00000000e+00  0.00000000e+00]
+ [-3.05175781e-05  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00]
+ ...
+ [ 2.07519531e-03  2.34985352e-03]
+ [ 1.64794922e-03  1.67846680e-03]
+ [ 2.25830078e-03  2.01416016e-03]]
+110.7760 	EXP 	Sound  stopped
+110.7768 	EXP 	Sound  started
+110.7921 	EXP 	fixCross: autoDraw = False
+110.7921 	EXP 	fixCross: autoDraw = False
+110.7921 	EXP 	movieToShow: autoLog = True
+110.7921 	EXP 	movieToShow: movie = 'bye.mpg'
+110.7921 	EXP 	movieToShow: size = array([0., 0.])
+110.7921 	EXP 	movieToShow: ori = 0.0
+110.7921 	EXP 	fixCross2: autoDraw = True
+110.7921 	EXP 	movieToShow: autoDraw = True
+112.1590 	EXP 	Set movieToShow finished
+112.1757 	EXP 	fixCross2: autoDraw = False
+112.1757 	EXP 	movieToShow: autoDraw = False
+112.1757 	EXP 	answerPrompt: autoDraw = True
+112.1757 	EXP 	getAnswer: autoDraw = True
+112.8348 	DATA 	Keypress: b
+113.1655 	DATA 	Keypress: u
+113.2695 	DATA 	Keypress: y
+114.0946 	EXP 	New trial (rep=0, index=11): OrderedDict([('Audio_Only_Files', 'fit.wav'), ('Video_Files', 'fit.mpg'), ('Original_Word_List', 'fit'), ('noiseLevelCode', 4), ('conditionCodes', 'AV'), ('noiseLevelFile1', 'Pink_Noise_4_1.wav'), ('noiseLevelFile2', 'Pink_Noise_4_2.wav')])
+114.0993 	DATA 	Keypress: return
+114.1092 	EXP 	answerPrompt: autoDraw = False
+114.1092 	EXP 	getAnswer: autoDraw = False
+114.1092 	EXP 	fixCross: autoDraw = True
+115.4448 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='fit.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+115.5854 	EXP 	Set  sound=[[ 0.00000000e+00  0.00000000e+00]
+ [-3.05175781e-05  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00]
+ ...
+ [-1.83105469e-03 -1.22070312e-03]
+ [-2.04467773e-03 -1.52587891e-03]
+ [-1.67846680e-03 -1.64794922e-03]]
+115.5880 	EXP 	Sound  stopped
+115.5906 	EXP 	Sound  started
+115.6086 	EXP 	fixCross: autoDraw = False
+115.6086 	EXP 	fixCross: autoDraw = False
+115.6086 	EXP 	movieToShow: autoLog = True
+115.6086 	EXP 	movieToShow: movie = 'fit.mpg'
+115.6086 	EXP 	movieToShow: size = array([360., 240.])
+115.6086 	EXP 	movieToShow: ori = 0.0
+115.6086 	EXP 	fixCross2: autoDraw = True
+115.6086 	EXP 	movieToShow: autoDraw = True
+116.9756 	EXP 	Set movieToShow finished
+116.9922 	EXP 	fixCross2: autoDraw = False
+116.9922 	EXP 	movieToShow: autoDraw = False
+116.9922 	EXP 	answerPrompt: autoDraw = True
+116.9922 	EXP 	getAnswer: autoDraw = True
+117.5824 	DATA 	Keypress: f
+117.9983 	DATA 	Keypress: i
+118.2521 	DATA 	Keypress: t
+118.9940 	EXP 	New trial (rep=0, index=12): OrderedDict([('Audio_Only_Files', 'drunk.wav'), ('Video_Files', 'drunk.mpg'), ('Original_Word_List', 'drunk'), ('noiseLevelCode', 6), ('conditionCodes', 'A'), ('noiseLevelFile1', 'Pink_Noise_6_1.wav'), ('noiseLevelFile2', 'Pink_Noise_6_2.wav')])
+118.9979 	DATA 	Keypress: return
+119.0090 	EXP 	answerPrompt: autoDraw = False
+119.0090 	EXP 	getAnswer: autoDraw = False
+119.0090 	EXP 	fixCross: autoDraw = True
+120.3449 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='drunk.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+120.4840 	EXP 	Set  sound=[[ 0.          0.        ]
+ [ 0.          0.        ]
+ [ 0.          0.        ]
+ ...
+ [-0.00540161 -0.00534058]
+ [-0.00534058 -0.00497437]
+ [-0.00537109 -0.0050354 ]]
+120.4864 	EXP 	Sound  stopped
+120.4870 	EXP 	Sound  started
+120.5088 	EXP 	fixCross: autoDraw = False
+120.5088 	EXP 	fixCross: autoDraw = False
+120.5088 	EXP 	movieToShow: autoLog = True
+120.5088 	EXP 	movieToShow: movie = 'drunk.mpg'
+120.5088 	EXP 	movieToShow: size = array([0., 0.])
+120.5088 	EXP 	movieToShow: ori = 0.0
+120.5088 	EXP 	fixCross2: autoDraw = True
+120.5088 	EXP 	movieToShow: autoDraw = True
+121.8757 	EXP 	Set movieToShow finished
+121.8924 	EXP 	fixCross2: autoDraw = False
+121.8924 	EXP 	movieToShow: autoDraw = False
+121.8924 	EXP 	answerPrompt: autoDraw = True
+121.8924 	EXP 	getAnswer: autoDraw = True
+123.1334 	DATA 	Keypress: w
+124.0165 	DATA 	Keypress: i
+124.2687 	DATA 	Keypress: n
+124.9773 	EXP 	New trial (rep=0, index=13): OrderedDict([('Audio_Only_Files', 'eight.wav'), ('Video_Files', 'eight.mpg'), ('Original_Word_List', 'eight'), ('noiseLevelCode', 2), ('conditionCodes', 'A'), ('noiseLevelFile1', 'Pink_Noise_2_1.wav'), ('noiseLevelFile2', 'Pink_Noise_2_2.wav')])
+124.9815 	DATA 	Keypress: return
+124.9923 	EXP 	answerPrompt: autoDraw = False
+124.9923 	EXP 	getAnswer: autoDraw = False
+124.9923 	EXP 	fixCross: autoDraw = True
+126.3279 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='eight.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+126.4672 	EXP 	Set  sound=[[ 0.          0.        ]
+ [ 0.          0.        ]
+ [ 0.          0.        ]
+ ...
+ [-0.00134277 -0.00149536]
+ [-0.00167847 -0.00195312]
+ [-0.00338745 -0.003479  ]]
+126.4695 	EXP 	Sound  stopped
+126.4702 	EXP 	Sound  started
+126.4922 	EXP 	fixCross: autoDraw = False
+126.4922 	EXP 	fixCross: autoDraw = False
+126.4922 	EXP 	movieToShow: autoLog = True
+126.4922 	EXP 	movieToShow: movie = 'eight.mpg'
+126.4922 	EXP 	movieToShow: size = array([0., 0.])
+126.4922 	EXP 	movieToShow: ori = 0.0
+126.4922 	EXP 	fixCross2: autoDraw = True
+126.4922 	EXP 	movieToShow: autoDraw = True
+127.4439 	WARNING 	0.9403031683177687: Video catchup needed, advancing self._nextFrameT from 0.8675333333333332 to 0.9008999999999998
+127.8595 	EXP 	Set movieToShow finished
+127.8770 	EXP 	fixCross2: autoDraw = False
+127.8770 	EXP 	movieToShow: autoDraw = False
+127.8770 	EXP 	answerPrompt: autoDraw = True
+127.8770 	EXP 	getAnswer: autoDraw = True
+128.4836 	DATA 	Keypress: a
+128.8858 	DATA 	Keypress: t
+129.1008 	DATA 	Keypress: e
+129.9107 	EXP 	New trial (rep=0, index=14): OrderedDict([('Audio_Only_Files', 'fetch.wav'), ('Video_Files', 'fetch.mpg'), ('Original_Word_List', 'fetch'), ('noiseLevelCode', 4), ('conditionCodes', 'A'), ('noiseLevelFile1', 'Pink_Noise_4_1.wav'), ('noiseLevelFile2', 'Pink_Noise_4_2.wav')])
+129.9145 	DATA 	Keypress: return
+129.9256 	EXP 	answerPrompt: autoDraw = False
+129.9256 	EXP 	getAnswer: autoDraw = False
+129.9256 	EXP 	fixCross: autoDraw = True
+131.2615 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='fetch.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+131.4074 	EXP 	Set  sound=[[ 0.00000000e+00  0.00000000e+00]
+ [-3.05175781e-05  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00]
+ ...
+ [-8.85009766e-04 -1.06811523e-03]
+ [-1.00708008e-03 -1.06811523e-03]
+ [-1.06811523e-03 -1.09863281e-03]]
+131.4096 	EXP 	Sound  stopped
+131.4102 	EXP 	Sound  started
+131.4252 	EXP 	fixCross: autoDraw = False
+131.4252 	EXP 	fixCross: autoDraw = False
+131.4252 	EXP 	movieToShow: autoLog = True
+131.4252 	EXP 	movieToShow: movie = 'fetch.mpg'
+131.4252 	EXP 	movieToShow: size = array([0., 0.])
+131.4252 	EXP 	movieToShow: ori = 0.0
+131.4252 	EXP 	fixCross2: autoDraw = True
+131.4252 	EXP 	movieToShow: autoDraw = True
+132.7921 	EXP 	Set movieToShow finished
+132.8088 	EXP 	fixCross2: autoDraw = False
+132.8088 	EXP 	movieToShow: autoDraw = False
+132.8088 	EXP 	answerPrompt: autoDraw = True
+132.8088 	EXP 	getAnswer: autoDraw = True
+133.2505 	DATA 	Keypress: f
+133.4989 	DATA 	Keypress: e
+133.7157 	DATA 	Keypress: t
+134.0669 	DATA 	Keypress: c
+134.2830 	DATA 	Keypress: h
+134.6621 	EXP 	New trial (rep=0, index=15): OrderedDict([('Audio_Only_Files', 'crow.wav'), ('Video_Files', 'crow.mpg'), ('Original_Word_List', 'crow'), ('noiseLevelCode', 1), ('conditionCodes', 'A'), ('noiseLevelFile1', 'Pink_Noise_1_1.wav'), ('noiseLevelFile2', 'Pink_Noise_1_2.wav')])
+134.6676 	DATA 	Keypress: return
+134.6764 	EXP 	answerPrompt: autoDraw = False
+134.6764 	EXP 	getAnswer: autoDraw = False
+134.6764 	EXP 	fixCross: autoDraw = True
+136.0112 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='crow.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+136.2436 	EXP 	Set  sound=[[ 0.00000000e+00  0.00000000e+00]
+ [-3.05175781e-05  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00]
+ ...
+ [ 2.16674805e-03  2.19726562e-03]
+ [ 1.98364258e-03  1.86157227e-03]
+ [ 1.86157227e-03  1.67846680e-03]]
+136.2466 	EXP 	Sound  stopped
+136.2475 	EXP 	Sound  started
+136.2598 	EXP 	fixCross: autoDraw = False
+136.2598 	EXP 	fixCross: autoDraw = False
+136.2598 	EXP 	movieToShow: autoLog = True
+136.2598 	EXP 	movieToShow: movie = 'crow.mpg'
+136.2598 	EXP 	movieToShow: size = array([0., 0.])
+136.2598 	EXP 	movieToShow: ori = 0.0
+136.2598 	EXP 	fixCross2: autoDraw = True
+136.2598 	EXP 	movieToShow: autoDraw = True
+137.6259 	EXP 	Set movieToShow finished
+137.6429 	EXP 	fixCross2: autoDraw = False
+137.6429 	EXP 	movieToShow: autoDraw = False
+137.6429 	EXP 	answerPrompt: autoDraw = True
+137.6429 	EXP 	getAnswer: autoDraw = True
+138.1168 	DATA 	Keypress: c
+138.3511 	DATA 	Keypress: r
+138.6985 	DATA 	Keypress: o
+139.0997 	DATA 	Keypress: w
+139.5440 	EXP 	New trial (rep=0, index=16): OrderedDict([('Audio_Only_Files', 'beef.wav'), ('Video_Files', 'beef.mpg'), ('Original_Word_List', 'beef'), ('noiseLevelCode', 6), ('conditionCodes', 'AV'), ('noiseLevelFile1', 'Pink_Noise_6_1.wav'), ('noiseLevelFile2', 'Pink_Noise_6_2.wav')])
+139.5479 	DATA 	Keypress: return
+139.5590 	EXP 	answerPrompt: autoDraw = False
+139.5590 	EXP 	getAnswer: autoDraw = False
+139.5590 	EXP 	fixCross: autoDraw = True
+140.8944 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='beef.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+141.0354 	EXP 	Set  sound=[[0.         0.        ]
+ [0.         0.        ]
+ [0.         0.        ]
+ ...
+ [0.00057983 0.00036621]
+ [0.00073242 0.00036621]
+ [0.00170898 0.00149536]]
+141.0379 	EXP 	Sound  stopped
+141.0388 	EXP 	Sound  started
+141.0587 	EXP 	fixCross: autoDraw = False
+141.0587 	EXP 	fixCross: autoDraw = False
+141.0587 	EXP 	movieToShow: autoLog = True
+141.0587 	EXP 	movieToShow: movie = 'beef.mpg'
+141.0587 	EXP 	movieToShow: size = array([360., 240.])
+141.0587 	EXP 	movieToShow: ori = 0.0
+141.0587 	EXP 	fixCross2: autoDraw = True
+141.0587 	EXP 	movieToShow: autoDraw = True
+141.2447 	WARNING 	0.17244519732776098: Video catchup needed, advancing self._nextFrameT from 0.10010000000000001 to 0.13346666666666668
+142.4256 	EXP 	Set movieToShow finished
+142.4422 	EXP 	fixCross2: autoDraw = False
+142.4422 	EXP 	movieToShow: autoDraw = False
+142.4422 	EXP 	answerPrompt: autoDraw = True
+142.4422 	EXP 	getAnswer: autoDraw = True
+144.0828 	DATA 	Keypress: b
+144.4989 	DATA 	Keypress: e
+144.6352 	DATA 	Keypress: e
+144.8653 	DATA 	Keypress: f
+145.3775 	EXP 	New trial (rep=0, index=17): OrderedDict([('Audio_Only_Files', 'clot.wav'), ('Video_Files', 'clot.mpg'), ('Original_Word_List', 'clot'), ('noiseLevelCode', 4), ('conditionCodes', 'AV'), ('noiseLevelFile1', 'Pink_Noise_4_1.wav'), ('noiseLevelFile2', 'Pink_Noise_4_2.wav')])
+145.3816 	DATA 	Keypress: return
+145.3923 	EXP 	answerPrompt: autoDraw = False
+145.3923 	EXP 	getAnswer: autoDraw = False
+145.3923 	EXP 	fixCross: autoDraw = True
+146.7285 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='clot.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+146.9634 	EXP 	Set  sound=[[ 0.          0.        ]
+ [ 0.          0.        ]
+ [ 0.          0.        ]
+ ...
+ [-0.0005188   0.        ]
+ [-0.0007019  -0.0007019 ]
+ [ 0.00079346  0.00054932]]
+146.9661 	EXP 	Sound  stopped
+146.9674 	EXP 	Sound  started
+146.9921 	EXP 	fixCross: autoDraw = False
+146.9921 	EXP 	fixCross: autoDraw = False
+146.9921 	EXP 	movieToShow: autoLog = True
+146.9921 	EXP 	movieToShow: movie = 'clot.mpg'
+146.9921 	EXP 	movieToShow: size = array([360., 240.])
+146.9921 	EXP 	movieToShow: ori = 0.0
+146.9921 	EXP 	fixCross2: autoDraw = True
+146.9921 	EXP 	movieToShow: autoDraw = True
+148.3588 	EXP 	Set movieToShow finished
+148.3755 	EXP 	fixCross2: autoDraw = False
+148.3755 	EXP 	movieToShow: autoDraw = False
+148.3755 	EXP 	answerPrompt: autoDraw = True
+148.3755 	EXP 	getAnswer: autoDraw = True
+167.2527 	DATA 	Keypress: c
+167.4830 	DATA 	Keypress: l
+167.7985 	DATA 	Keypress: a
+168.1668 	DATA 	Keypress: t
+170.1283 	EXP 	New trial (rep=0, index=18): OrderedDict([('Audio_Only_Files', 'clay.wav'), ('Video_Files', 'clay.mpg'), ('Original_Word_List', 'clay'), ('noiseLevelCode', 3), ('conditionCodes', 'AV'), ('noiseLevelFile1', 'Pink_Noise_3_1.wav'), ('noiseLevelFile2', 'Pink_Noise_3_2.wav')])
+170.1323 	DATA 	Keypress: return
+170.1427 	EXP 	answerPrompt: autoDraw = False
+170.1427 	EXP 	getAnswer: autoDraw = False
+170.1427 	EXP 	fixCross: autoDraw = True
+171.4790 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='clay.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+171.6386 	EXP 	Set  sound=[[ 0.00000000e+00  0.00000000e+00]
+ [-3.05175781e-05  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00]
+ ...
+ [ 1.89208984e-03  1.80053711e-03]
+ [ 1.95312500e-03  1.73950195e-03]
+ [ 1.22070312e-03  9.46044922e-04]]
+171.6409 	EXP 	Sound  stopped
+171.6417 	EXP 	Sound  started
+171.6589 	EXP 	fixCross: autoDraw = False
+171.6589 	EXP 	fixCross: autoDraw = False
+171.6589 	EXP 	movieToShow: autoLog = True
+171.6589 	EXP 	movieToShow: movie = 'clay.mpg'
+171.6589 	EXP 	movieToShow: size = array([360., 240.])
+171.6589 	EXP 	movieToShow: ori = 0.0
+171.6589 	EXP 	fixCross2: autoDraw = True
+171.6589 	EXP 	movieToShow: autoDraw = True
+173.0257 	EXP 	Set movieToShow finished
+173.0424 	EXP 	fixCross2: autoDraw = False
+173.0424 	EXP 	movieToShow: autoDraw = False
+173.0424 	EXP 	answerPrompt: autoDraw = True
+173.0424 	EXP 	getAnswer: autoDraw = True
+173.7825 	DATA 	Keypress: c
+174.1332 	DATA 	Keypress: l
+174.4658 	DATA 	Keypress: a
+174.9164 	DATA 	Keypress: y
+175.4334 	DATA 	Keypress: return
+175.4439 	EXP 	New trial (rep=0, index=19): OrderedDict([('Audio_Only_Files', 'ask.wav'), ('Video_Files', 'ask.mpg'), ('Original_Word_List', 'ask'), ('noiseLevelCode', 4), ('conditionCodes', 'AV'), ('noiseLevelFile1', 'Pink_Noise_4_1.wav'), ('noiseLevelFile2', 'Pink_Noise_4_2.wav')])
+175.4590 	EXP 	answerPrompt: autoDraw = False
+175.4590 	EXP 	getAnswer: autoDraw = False
+175.4590 	EXP 	fixCross: autoDraw = True
+176.7956 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='ask.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+176.9461 	EXP 	Set  sound=[[ 0.00000000e+00  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00]
+ ...
+ [-9.15527344e-05  1.83105469e-04]
+ [ 5.79833984e-04  5.18798828e-04]
+ [ 1.52587891e-03  1.09863281e-03]]
+176.9494 	EXP 	Sound  stopped
+176.9500 	EXP 	Sound  started
+176.9758 	EXP 	fixCross: autoDraw = False
+176.9758 	EXP 	fixCross: autoDraw = False
+176.9758 	EXP 	movieToShow: autoLog = True
+176.9758 	EXP 	movieToShow: movie = 'ask.mpg'
+176.9758 	EXP 	movieToShow: size = array([360., 240.])
+176.9758 	EXP 	movieToShow: ori = 0.0
+176.9758 	EXP 	fixCross2: autoDraw = True
+176.9758 	EXP 	movieToShow: autoDraw = True
+178.3427 	EXP 	Set movieToShow finished
+178.3595 	EXP 	fixCross2: autoDraw = False
+178.3595 	EXP 	movieToShow: autoDraw = False
+178.3595 	EXP 	answerPrompt: autoDraw = True
+178.3595 	EXP 	getAnswer: autoDraw = True
+179.1349 	DATA 	Keypress: a
+179.1997 	DATA 	Keypress: s
+180.0033 	DATA 	Keypress: k
+180.2516 	DATA 	Keypress: return
+180.2627 	EXP 	New trial (rep=0, index=20): OrderedDict([('Audio_Only_Files', 'bee.wav'), ('Video_Files', 'bee.mpg'), ('Original_Word_List', 'bee'), ('noiseLevelCode', 4), ('conditionCodes', 'A'), ('noiseLevelFile1', 'Pink_Noise_4_1.wav'), ('noiseLevelFile2', 'Pink_Noise_4_2.wav')])
+180.2758 	EXP 	answerPrompt: autoDraw = False
+180.2758 	EXP 	getAnswer: autoDraw = False
+180.2758 	EXP 	fixCross: autoDraw = True
+181.6111 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='bee.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+181.7498 	EXP 	Set  sound=[[0.         0.        ]
+ [0.         0.        ]
+ [0.         0.        ]
+ ...
+ [0.00534058 0.00518799]
+ [0.00512695 0.00527954]
+ [0.00439453 0.00469971]]
+181.7521 	EXP 	Sound  stopped
+181.7528 	EXP 	Sound  started
+181.7756 	EXP 	fixCross: autoDraw = False
+181.7756 	EXP 	fixCross: autoDraw = False
+181.7756 	EXP 	movieToShow: autoLog = True
+181.7756 	EXP 	movieToShow: movie = 'bee.mpg'
+181.7756 	EXP 	movieToShow: size = array([0., 0.])
+181.7756 	EXP 	movieToShow: ori = 0.0
+181.7756 	EXP 	fixCross2: autoDraw = True
+181.7756 	EXP 	movieToShow: autoDraw = True
+183.1429 	EXP 	Set movieToShow finished
+183.1755 	EXP 	fixCross2: autoDraw = False
+183.1755 	EXP 	movieToShow: autoDraw = False
+183.1755 	EXP 	answerPrompt: autoDraw = True
+183.1755 	EXP 	getAnswer: autoDraw = True
+188.6679 	DATA 	Keypress: a
+189.0168 	DATA 	Keypress: t
+189.1164 	DATA 	Keypress: e
+189.7773 	EXP 	New trial (rep=0, index=21): OrderedDict([('Audio_Only_Files', 'gap.wav'), ('Video_Files', 'gap.mpg'), ('Original_Word_List', 'gap'), ('noiseLevelCode', 5), ('conditionCodes', 'A'), ('noiseLevelFile1', 'Pink_Noise_5_1.wav'), ('noiseLevelFile2', 'Pink_Noise_5_2.wav')])
+189.7811 	DATA 	Keypress: return
+189.7923 	EXP 	answerPrompt: autoDraw = False
+189.7923 	EXP 	getAnswer: autoDraw = False
+189.7923 	EXP 	fixCross: autoDraw = True
+191.1280 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='gap.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+191.2645 	EXP 	Set  sound=[[ 0.          0.        ]
+ [ 0.          0.        ]
+ [ 0.          0.        ]
+ ...
+ [-0.00146484 -0.00161743]
+ [-0.00112915 -0.00140381]
+ [-0.00061035 -0.00076294]]
+191.2670 	EXP 	Sound  stopped
+191.2677 	EXP 	Sound  started
+191.2925 	EXP 	fixCross: autoDraw = False
+191.2925 	EXP 	fixCross: autoDraw = False
+191.2925 	EXP 	movieToShow: autoLog = True
+191.2925 	EXP 	movieToShow: movie = 'gap.mpg'
+191.2925 	EXP 	movieToShow: size = array([0., 0.])
+191.2925 	EXP 	movieToShow: ori = 0.0
+191.2925 	EXP 	fixCross2: autoDraw = True
+191.2925 	EXP 	movieToShow: autoDraw = True
+192.6590 	EXP 	Set movieToShow finished
+192.6758 	EXP 	fixCross2: autoDraw = False
+192.6758 	EXP 	movieToShow: autoDraw = False
+192.6758 	EXP 	answerPrompt: autoDraw = True
+192.6758 	EXP 	getAnswer: autoDraw = True
+193.8342 	DATA 	Keypress: g
+194.1831 	DATA 	Keypress: a
+194.2327 	DATA 	Keypress: s
+195.0118 	EXP 	New trial (rep=0, index=22): OrderedDict([('Audio_Only_Files', 'script.wav'), ('Video_Files', 'script.mpg'), ('Original_Word_List', 'script'), ('noiseLevelCode', 3), ('conditionCodes', 'AV'), ('noiseLevelFile1', 'Pink_Noise_3_1.wav'), ('noiseLevelFile2', 'Pink_Noise_3_2.wav')])
+195.0259 	EXP 	answerPrompt: autoDraw = False
+195.0259 	EXP 	getAnswer: autoDraw = False
+195.0259 	EXP 	fixCross: autoDraw = True
+195.0302 	DATA 	Keypress: return
+196.3612 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='script.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+196.5017 	EXP 	Set  sound=[[ 0.00000000e+00  0.00000000e+00]
+ [-3.05175781e-05  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00]
+ ...
+ [ 6.71386719e-04  8.23974609e-04]
+ [ 1.37329102e-03  1.37329102e-03]
+ [ 1.52587891e-03  1.37329102e-03]]
+196.5042 	EXP 	Sound  stopped
+196.5048 	EXP 	Sound  started
+196.5254 	EXP 	fixCross: autoDraw = False
+196.5254 	EXP 	fixCross: autoDraw = False
+196.5254 	EXP 	movieToShow: autoLog = True
+196.5254 	EXP 	movieToShow: movie = 'script.mpg'
+196.5254 	EXP 	movieToShow: size = array([360., 240.])
+196.5254 	EXP 	movieToShow: ori = 0.0
+196.5254 	EXP 	fixCross2: autoDraw = True
+196.5254 	EXP 	movieToShow: autoDraw = True
+197.8923 	EXP 	Set movieToShow finished
+197.9089 	EXP 	fixCross2: autoDraw = False
+197.9089 	EXP 	movieToShow: autoDraw = False
+197.9089 	EXP 	answerPrompt: autoDraw = True
+197.9089 	EXP 	getAnswer: autoDraw = True
+199.1161 	DATA 	Keypress: s
+199.3365 	DATA 	Keypress: c
+199.6003 	DATA 	Keypress: r
+200.0832 	DATA 	Keypress: i
+200.1824 	DATA 	Keypress: p
+200.4835 	DATA 	Keypress: t
+201.0940 	EXP 	New trial (rep=0, index=23): OrderedDict([('Audio_Only_Files', 'phase.wav'), ('Video_Files', 'phase.mpg'), ('Original_Word_List', 'phase'), ('noiseLevelCode', 1), ('conditionCodes', 'AV'), ('noiseLevelFile1', 'Pink_Noise_1_1.wav'), ('noiseLevelFile2', 'Pink_Noise_1_2.wav')])
+201.0982 	DATA 	Keypress: return
+201.1090 	EXP 	answerPrompt: autoDraw = False
+201.1090 	EXP 	getAnswer: autoDraw = False
+201.1090 	EXP 	fixCross: autoDraw = True
+202.4446 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='phase.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+202.5851 	EXP 	Set  sound=[[ 0.          0.        ]
+ [ 0.          0.        ]
+ [ 0.          0.        ]
+ ...
+ [-0.00253296 -0.00244141]
+ [-0.00216675 -0.00219727]
+ [-0.00128174 -0.00143433]]
+202.5876 	EXP 	Sound  stopped
+202.5885 	EXP 	Sound  started
+202.6089 	EXP 	fixCross: autoDraw = False
+202.6089 	EXP 	fixCross: autoDraw = False
+202.6089 	EXP 	movieToShow: autoLog = True
+202.6089 	EXP 	movieToShow: movie = 'phase.mpg'
+202.6089 	EXP 	movieToShow: size = array([360., 240.])
+202.6089 	EXP 	movieToShow: ori = 0.0
+202.6089 	EXP 	fixCross2: autoDraw = True
+202.6089 	EXP 	movieToShow: autoDraw = True
+203.9757 	EXP 	Set movieToShow finished
+203.9926 	EXP 	fixCross2: autoDraw = False
+203.9926 	EXP 	movieToShow: autoDraw = False
+203.9926 	EXP 	answerPrompt: autoDraw = True
+203.9926 	EXP 	getAnswer: autoDraw = True
+206.3529 	DATA 	Keypress: p
+206.5823 	DATA 	Keypress: h
+206.9322 	DATA 	Keypress: a
+207.1824 	DATA 	Keypress: s
+207.2330 	DATA 	Keypress: e
+208.1280 	EXP 	New trial (rep=0, index=24): OrderedDict([('Audio_Only_Files', 'weep.wav'), ('Video_Files', 'weep.mpg'), ('Original_Word_List', 'weep'), ('noiseLevelCode', 2), ('conditionCodes', 'AV'), ('noiseLevelFile1', 'Pink_Noise_2_1.wav'), ('noiseLevelFile2', 'Pink_Noise_2_2.wav')])
+208.1335 	DATA 	Keypress: return
+208.1427 	EXP 	answerPrompt: autoDraw = False
+208.1427 	EXP 	getAnswer: autoDraw = False
+208.1427 	EXP 	fixCross: autoDraw = True
+209.4788 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='weep.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+209.6367 	EXP 	Set  sound=[[ 0.          0.        ]
+ [ 0.          0.        ]
+ [ 0.          0.        ]
+ ...
+ [ 0.00085449  0.00085449]
+ [ 0.00030518  0.00012207]
+ [-0.00061035 -0.00088501]]
+209.6390 	EXP 	Sound  stopped
+209.6398 	EXP 	Sound  started
+209.6590 	EXP 	fixCross: autoDraw = False
+209.6590 	EXP 	fixCross: autoDraw = False
+209.6590 	EXP 	movieToShow: autoLog = True
+209.6590 	EXP 	movieToShow: movie = 'weep.mpg'
+209.6590 	EXP 	movieToShow: size = array([360., 240.])
+209.6590 	EXP 	movieToShow: ori = 0.0
+209.6590 	EXP 	fixCross2: autoDraw = True
+209.6590 	EXP 	movieToShow: autoDraw = True
+211.0256 	EXP 	Set movieToShow finished
+211.0423 	EXP 	fixCross2: autoDraw = False
+211.0423 	EXP 	movieToShow: autoDraw = False
+211.0423 	EXP 	answerPrompt: autoDraw = True
+211.0423 	EXP 	getAnswer: autoDraw = True
+211.7829 	DATA 	Keypress: w
+211.9999 	DATA 	Keypress: e
+212.1053 	DATA 	Keypress: e
+212.5326 	DATA 	Keypress: p
+212.9442 	EXP 	New trial (rep=0, index=25): OrderedDict([('Audio_Only_Files', 'bridge.wav'), ('Video_Files', 'bridge.mpg'), ('Original_Word_List', 'bridge'), ('noiseLevelCode', 6), ('conditionCodes', 'A'), ('noiseLevelFile1', 'Pink_Noise_6_1.wav'), ('noiseLevelFile2', 'Pink_Noise_6_2.wav')])
+212.9488 	DATA 	Keypress: return
+212.9591 	EXP 	answerPrompt: autoDraw = False
+212.9591 	EXP 	getAnswer: autoDraw = False
+212.9591 	EXP 	fixCross: autoDraw = True
+214.2947 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='bridge.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+214.4324 	EXP 	Set  sound=[[ 0.00000000e+00  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00]
+ ...
+ [ 9.15527344e-05 -1.22070312e-04]
+ [ 2.74658203e-04  1.52587891e-04]
+ [-3.05175781e-04 -3.05175781e-04]]
+214.4346 	EXP 	Sound  stopped
+214.4353 	EXP 	Sound  started
+214.4589 	EXP 	fixCross: autoDraw = False
+214.4589 	EXP 	fixCross: autoDraw = False
+214.4589 	EXP 	movieToShow: autoLog = True
+214.4589 	EXP 	movieToShow: movie = 'bridge.mpg'
+214.4589 	EXP 	movieToShow: size = array([0., 0.])
+214.4589 	EXP 	movieToShow: ori = 0.0
+214.4589 	EXP 	fixCross2: autoDraw = True
+214.4589 	EXP 	movieToShow: autoDraw = True
+215.8257 	EXP 	Set movieToShow finished
+215.8423 	EXP 	fixCross2: autoDraw = False
+215.8423 	EXP 	movieToShow: autoDraw = False
+215.8423 	EXP 	answerPrompt: autoDraw = True
+215.8423 	EXP 	getAnswer: autoDraw = True
+216.6331 	DATA 	Keypress: b
+216.9488 	DATA 	Keypress: r
+217.3838 	DATA 	Keypress: i
+217.7152 	DATA 	Keypress: d
+217.9324 	DATA 	Keypress: g
+218.1154 	DATA 	Keypress: e
+218.9952 	EXP 	New trial (rep=0, index=26): OrderedDict([('Audio_Only_Files', 'clown.wav'), ('Video_Files', 'clown.mpg'), ('Original_Word_List', 'clown'), ('noiseLevelCode', 2), ('conditionCodes', 'AV'), ('noiseLevelFile1', 'Pink_Noise_2_1.wav'), ('noiseLevelFile2', 'Pink_Noise_2_2.wav')])
+219.0000 	DATA 	Keypress: return
+219.0093 	EXP 	answerPrompt: autoDraw = False
+219.0093 	EXP 	getAnswer: autoDraw = False
+219.0093 	EXP 	fixCross: autoDraw = True
+220.3453 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='clown.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+220.4845 	EXP 	Set  sound=[[0.         0.        ]
+ [0.         0.        ]
+ [0.         0.        ]
+ ...
+ [0.00128174 0.00149536]
+ [0.00152588 0.00158691]
+ [0.00198364 0.00180054]]
+220.4868 	EXP 	Sound  stopped
+220.4874 	EXP 	Sound  started
+220.5088 	EXP 	fixCross: autoDraw = False
+220.5088 	EXP 	fixCross: autoDraw = False
+220.5088 	EXP 	movieToShow: autoLog = True
+220.5088 	EXP 	movieToShow: movie = 'clown.mpg'
+220.5088 	EXP 	movieToShow: size = array([360., 240.])
+220.5088 	EXP 	movieToShow: ori = 0.0
+220.5088 	EXP 	fixCross2: autoDraw = True
+220.5088 	EXP 	movieToShow: autoDraw = True
+221.8757 	EXP 	Set movieToShow finished
+221.8922 	EXP 	fixCross2: autoDraw = False
+221.8922 	EXP 	movieToShow: autoDraw = False
+221.8922 	EXP 	answerPrompt: autoDraw = True
+221.8922 	EXP 	getAnswer: autoDraw = True
+223.3859 	DATA 	Keypress: c
+223.8327 	DATA 	Keypress: l
+224.0680 	DATA 	Keypress: o
+224.4660 	DATA 	Keypress: w
+227.2861 	DATA 	Keypress: n
+227.5860 	DATA 	Keypress: return
+227.6115 	EXP 	New trial (rep=0, index=27): OrderedDict([('Audio_Only_Files', 'blow.wav'), ('Video_Files', 'blow.mpg'), ('Original_Word_List', 'blow'), ('noiseLevelCode', 2), ('conditionCodes', 'A'), ('noiseLevelFile1', 'Pink_Noise_2_1.wav'), ('noiseLevelFile2', 'Pink_Noise_2_2.wav')])
+227.6260 	EXP 	answerPrompt: autoDraw = False
+227.6260 	EXP 	getAnswer: autoDraw = False
+227.6260 	EXP 	fixCross: autoDraw = True
+228.9614 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='blow.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+229.2031 	EXP 	Set  sound=[[ 0.00000000e+00  0.00000000e+00]
+ [-3.05175781e-05  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00]
+ ...
+ [ 8.23974609e-04  7.01904297e-04]
+ [ 5.49316406e-04  9.46044922e-04]
+ [ 5.18798828e-04  9.15527344e-04]]
+229.2063 	EXP 	Sound  stopped
+229.2072 	EXP 	Sound  started
+229.2256 	EXP 	fixCross: autoDraw = False
+229.2256 	EXP 	fixCross: autoDraw = False
+229.2256 	EXP 	movieToShow: autoLog = True
+229.2256 	EXP 	movieToShow: movie = 'blow.mpg'
+229.2256 	EXP 	movieToShow: size = array([0., 0.])
+229.2256 	EXP 	movieToShow: ori = 0.0
+229.2256 	EXP 	fixCross2: autoDraw = True
+229.2256 	EXP 	movieToShow: autoDraw = True
+230.5924 	EXP 	Set movieToShow finished
+230.6091 	EXP 	fixCross2: autoDraw = False
+230.6091 	EXP 	movieToShow: autoDraw = False
+230.6091 	EXP 	answerPrompt: autoDraw = True
+230.6091 	EXP 	getAnswer: autoDraw = True
+230.9170 	DATA 	Keypress: b
+231.1492 	DATA 	Keypress: l
+231.3330 	DATA 	Keypress: o
+231.6656 	DATA 	Keypress: w
+232.1608 	EXP 	New trial (rep=0, index=28): OrderedDict([('Audio_Only_Files', 'blob.wav'), ('Video_Files', 'blob.mpg'), ('Original_Word_List', 'blob'), ('noiseLevelCode', 4), ('conditionCodes', 'AV'), ('noiseLevelFile1', 'Pink_Noise_4_1.wav'), ('noiseLevelFile2', 'Pink_Noise_4_2.wav')])
+232.1646 	DATA 	Keypress: return
+232.1757 	EXP 	answerPrompt: autoDraw = False
+232.1757 	EXP 	getAnswer: autoDraw = False
+232.1757 	EXP 	fixCross: autoDraw = True
+233.5114 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='blob.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+233.6750 	EXP 	Set  sound=[[ 0.00000000e+00  0.00000000e+00]
+ [-3.05175781e-05  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00]
+ ...
+ [ 4.57763672e-04  3.35693359e-04]
+ [ 5.49316406e-04  6.40869141e-04]
+ [ 8.23974609e-04  1.06811523e-03]]
+233.6789 	EXP 	Sound  stopped
+233.6816 	EXP 	Sound  started
+233.6940 	EXP 	fixCross: autoDraw = False
+233.6940 	EXP 	fixCross: autoDraw = False
+233.6940 	EXP 	movieToShow: autoLog = True
+233.6940 	EXP 	movieToShow: movie = 'blob.mpg'
+233.6940 	EXP 	movieToShow: size = array([360., 240.])
+233.6940 	EXP 	movieToShow: ori = 0.0
+233.6940 	EXP 	fixCross2: autoDraw = True
+233.6940 	EXP 	movieToShow: autoDraw = True
+233.8620 	WARNING 	0.14698570730979554: Video catchup needed, advancing self._nextFrameT from 0.06673333333333334 to 0.10010000000000001
+235.0591 	EXP 	Set movieToShow finished
+235.0759 	EXP 	fixCross2: autoDraw = False
+235.0759 	EXP 	movieToShow: autoDraw = False
+235.0759 	EXP 	answerPrompt: autoDraw = True
+235.0759 	EXP 	getAnswer: autoDraw = True
+235.8368 	DATA 	Keypress: b
+236.0832 	DATA 	Keypress: l
+236.2834 	DATA 	Keypress: o
+236.4994 	DATA 	Keypress: b
+236.9442 	EXP 	New trial (rep=0, index=29): OrderedDict([('Audio_Only_Files', 'flesh.wav'), ('Video_Files', 'flesh.mpg'), ('Original_Word_List', 'flesh'), ('noiseLevelCode', 4), ('conditionCodes', 'AV'), ('noiseLevelFile1', 'Pink_Noise_4_1.wav'), ('noiseLevelFile2', 'Pink_Noise_4_2.wav')])
+236.9481 	DATA 	Keypress: return
+236.9591 	EXP 	answerPrompt: autoDraw = False
+236.9591 	EXP 	getAnswer: autoDraw = False
+236.9591 	EXP 	fixCross: autoDraw = True
+238.2947 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='flesh.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+238.4356 	EXP 	Set  sound=[[ 0.00000000e+00  0.00000000e+00]
+ [-3.05175781e-05  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00]
+ ...
+ [-2.86865234e-03 -2.80761719e-03]
+ [-3.26538086e-03 -3.41796875e-03]
+ [-2.31933594e-03 -2.59399414e-03]]
+238.4380 	EXP 	Sound  stopped
+238.4387 	EXP 	Sound  started
+238.4591 	EXP 	fixCross: autoDraw = False
+238.4591 	EXP 	fixCross: autoDraw = False
+238.4591 	EXP 	movieToShow: autoLog = True
+238.4591 	EXP 	movieToShow: movie = 'flesh.mpg'
+238.4591 	EXP 	movieToShow: size = array([360., 240.])
+238.4591 	EXP 	movieToShow: ori = 0.0
+238.4591 	EXP 	fixCross2: autoDraw = True
+238.4591 	EXP 	movieToShow: autoDraw = True
+239.7446 	WARNING 	1.2724516653397586: Video catchup needed, advancing self._nextFrameT from 1.2012000000000005 to 1.2345666666666673
+239.8259 	EXP 	Set movieToShow finished
+239.8428 	EXP 	fixCross2: autoDraw = False
+239.8428 	EXP 	movieToShow: autoDraw = False
+239.8428 	EXP 	answerPrompt: autoDraw = True
+239.8428 	EXP 	getAnswer: autoDraw = True
+240.5493 	DATA 	Keypress: f
+240.8496 	DATA 	Keypress: l
+241.1159 	DATA 	Keypress: u
+241.6821 	DATA 	Keypress: s
+242.0019 	DATA 	Keypress: h
+242.6784 	EXP 	New trial (rep=0, index=30): OrderedDict([('Audio_Only_Files', 'fate.wav'), ('Video_Files', 'fate.mpg'), ('Original_Word_List', 'fate'), ('noiseLevelCode', 6), ('conditionCodes', 'A'), ('noiseLevelFile1', 'Pink_Noise_6_1.wav'), ('noiseLevelFile2', 'Pink_Noise_6_2.wav')])
+242.6825 	DATA 	Keypress: return
+242.6924 	EXP 	answerPrompt: autoDraw = False
+242.6924 	EXP 	getAnswer: autoDraw = False
+242.6924 	EXP 	fixCross: autoDraw = True
+244.0285 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='fate.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+244.1788 	EXP 	Set  sound=[[ 0.00000000e+00  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00]
+ ...
+ [ 3.96728516e-04  4.57763672e-04]
+ [-5.49316406e-04 -1.22070312e-04]
+ [-2.74658203e-04  6.10351562e-05]]
+244.1818 	EXP 	Sound  stopped
+244.1826 	EXP 	Sound  started
+244.2090 	EXP 	fixCross: autoDraw = False
+244.2090 	EXP 	fixCross: autoDraw = False
+244.2090 	EXP 	movieToShow: autoLog = True
+244.2090 	EXP 	movieToShow: movie = 'fate.mpg'
+244.2090 	EXP 	movieToShow: size = array([0., 0.])
+244.2090 	EXP 	movieToShow: ori = 0.0
+244.2090 	EXP 	fixCross2: autoDraw = True
+244.2090 	EXP 	movieToShow: autoDraw = True
+245.5591 	EXP 	Set movieToShow finished
+245.5758 	EXP 	fixCross2: autoDraw = False
+245.5758 	EXP 	movieToShow: autoDraw = False
+245.5758 	EXP 	answerPrompt: autoDraw = True
+245.5758 	EXP 	getAnswer: autoDraw = True
+246.4831 	DATA 	Keypress: f
+246.7324 	DATA 	Keypress: i
+246.9664 	DATA 	Keypress: t
+247.3107 	EXP 	New trial (rep=0, index=31): OrderedDict([('Audio_Only_Files', 'brow.wav'), ('Video_Files', 'brow.mpg'), ('Original_Word_List', 'brow'), ('noiseLevelCode', 6), ('conditionCodes', 'AV'), ('noiseLevelFile1', 'Pink_Noise_6_1.wav'), ('noiseLevelFile2', 'Pink_Noise_6_2.wav')])
+247.3144 	DATA 	Keypress: return
+247.3257 	EXP 	answerPrompt: autoDraw = False
+247.3257 	EXP 	getAnswer: autoDraw = False
+247.3257 	EXP 	fixCross: autoDraw = True
+248.6619 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='brow.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+248.9084 	EXP 	Set  sound=[[ 0.00000000e+00  0.00000000e+00]
+ [-3.05175781e-05  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00]
+ ...
+ [ 2.25830078e-03  2.25830078e-03]
+ [ 1.00708008e-03  9.46044922e-04]
+ [ 4.57763672e-04  4.88281250e-04]]
+248.9112 	EXP 	Sound  stopped
+248.9121 	EXP 	Sound  started
+248.9262 	EXP 	fixCross: autoDraw = False
+248.9262 	EXP 	fixCross: autoDraw = False
+248.9262 	EXP 	movieToShow: autoLog = True
+248.9262 	EXP 	movieToShow: movie = 'brow.mpg'
+248.9262 	EXP 	movieToShow: size = array([360., 240.])
+248.9262 	EXP 	movieToShow: ori = 0.0
+248.9262 	EXP 	fixCross2: autoDraw = True
+248.9262 	EXP 	movieToShow: autoDraw = True
+250.2924 	EXP 	Set movieToShow finished
+250.3094 	EXP 	fixCross2: autoDraw = False
+250.3094 	EXP 	movieToShow: autoDraw = False
+250.3094 	EXP 	answerPrompt: autoDraw = True
+250.3094 	EXP 	getAnswer: autoDraw = True
+250.8009 	DATA 	Keypress: b
+251.0832 	DATA 	Keypress: r
+251.4324 	DATA 	Keypress: o
+251.7357 	DATA 	Keypress: w
+252.4339 	DATA 	Keypress: return
+252.4452 	EXP 	New trial (rep=0, index=32): OrderedDict([('Audio_Only_Files', 'fox.wav'), ('Video_Files', 'fox.mpg'), ('Original_Word_List', 'fox'), ('noiseLevelCode', 1), ('conditionCodes', 'AV'), ('noiseLevelFile1', 'Pink_Noise_1_1.wav'), ('noiseLevelFile2', 'Pink_Noise_1_2.wav')])
+252.4592 	EXP 	answerPrompt: autoDraw = False
+252.4592 	EXP 	getAnswer: autoDraw = False
+252.4592 	EXP 	fixCross: autoDraw = True
+253.7949 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='fox.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+254.0208 	EXP 	Set  sound=[[ 0.00000000e+00  0.00000000e+00]
+ [-3.05175781e-05  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00]
+ ...
+ [ 8.54492188e-04  1.34277344e-03]
+ [ 9.15527344e-05  3.96728516e-04]
+ [ 1.03759766e-03  8.23974609e-04]]
+254.0241 	EXP 	Sound  stopped
+254.0254 	EXP 	Sound  started
+254.0425 	EXP 	fixCross: autoDraw = False
+254.0425 	EXP 	fixCross: autoDraw = False
+254.0425 	EXP 	movieToShow: autoLog = True
+254.0425 	EXP 	movieToShow: movie = 'fox.mpg'
+254.0425 	EXP 	movieToShow: size = array([360., 240.])
+254.0425 	EXP 	movieToShow: ori = 0.0
+254.0425 	EXP 	fixCross2: autoDraw = True
+254.0425 	EXP 	movieToShow: autoDraw = True
+255.4090 	EXP 	Set movieToShow finished
+255.4256 	EXP 	fixCross2: autoDraw = False
+255.4256 	EXP 	movieToShow: autoDraw = False
+255.4256 	EXP 	answerPrompt: autoDraw = True
+255.4256 	EXP 	getAnswer: autoDraw = True
+255.7677 	DATA 	Keypress: f
+256.0336 	DATA 	Keypress: o
+256.3897 	DATA 	Keypress: x
+256.8775 	EXP 	New trial (rep=0, index=33): OrderedDict([('Audio_Only_Files', 'drip.wav'), ('Video_Files', 'drip.mpg'), ('Original_Word_List', 'drip'), ('noiseLevelCode', 5), ('conditionCodes', 'AV'), ('noiseLevelFile1', 'Pink_Noise_5_1.wav'), ('noiseLevelFile2', 'Pink_Noise_5_2.wav')])
+256.8815 	DATA 	Keypress: return
+256.8925 	EXP 	answerPrompt: autoDraw = False
+256.8925 	EXP 	getAnswer: autoDraw = False
+256.8925 	EXP 	fixCross: autoDraw = True
+258.2280 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='drip.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+258.3678 	EXP 	Set  sound=[[0.         0.        ]
+ [0.         0.        ]
+ [0.         0.        ]
+ ...
+ [0.00192261 0.00186157]
+ [0.00164795 0.0017395 ]
+ [0.00189209 0.00201416]]
+258.3701 	EXP 	Sound  stopped
+258.3708 	EXP 	Sound  started
+258.3924 	EXP 	fixCross: autoDraw = False
+258.3924 	EXP 	fixCross: autoDraw = False
+258.3924 	EXP 	movieToShow: autoLog = True
+258.3924 	EXP 	movieToShow: movie = 'drip.mpg'
+258.3924 	EXP 	movieToShow: size = array([360., 240.])
+258.3924 	EXP 	movieToShow: ori = 0.0
+258.3924 	EXP 	fixCross2: autoDraw = True
+258.3924 	EXP 	movieToShow: autoDraw = True
+259.3460 	WARNING 	0.9417841763352044: Video catchup needed, advancing self._nextFrameT from 0.8675333333333332 to 0.9008999999999998
+259.7591 	EXP 	Set movieToShow finished
+259.7924 	EXP 	fixCross2: autoDraw = False
+259.7924 	EXP 	movieToShow: autoDraw = False
+259.7924 	EXP 	answerPrompt: autoDraw = True
+259.7924 	EXP 	getAnswer: autoDraw = True
+260.2330 	DATA 	Keypress: d
+260.3368 	DATA 	Keypress: r
+260.7827 	DATA 	Keypress: i
+260.8335 	DATA 	Keypress: p
+261.2121 	EXP 	New trial (rep=0, index=34): OrderedDict([('Audio_Only_Files', 'crust.wav'), ('Video_Files', 'crust.mpg'), ('Original_Word_List', 'crust'), ('noiseLevelCode', 5), ('conditionCodes', 'AV'), ('noiseLevelFile1', 'Pink_Noise_5_1.wav'), ('noiseLevelFile2', 'Pink_Noise_5_2.wav')])
+261.2180 	DATA 	Keypress: return
+261.2265 	EXP 	answerPrompt: autoDraw = False
+261.2265 	EXP 	getAnswer: autoDraw = False
+261.2265 	EXP 	fixCross: autoDraw = True
+262.5616 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='crust.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+262.7016 	EXP 	Set  sound=[[ 0.          0.        ]
+ [ 0.          0.        ]
+ [ 0.          0.        ]
+ ...
+ [-0.0020752  -0.00234985]
+ [-0.00170898 -0.00204468]
+ [-0.00311279 -0.00314331]]
+262.7039 	EXP 	Sound  stopped
+262.7045 	EXP 	Sound  started
+262.7259 	EXP 	fixCross: autoDraw = False
+262.7259 	EXP 	fixCross: autoDraw = False
+262.7259 	EXP 	movieToShow: autoLog = True
+262.7259 	EXP 	movieToShow: movie = 'crust.mpg'
+262.7259 	EXP 	movieToShow: size = array([360., 240.])
+262.7259 	EXP 	movieToShow: ori = 0.0
+262.7259 	EXP 	fixCross2: autoDraw = True
+262.7259 	EXP 	movieToShow: autoDraw = True
+264.0926 	EXP 	Set movieToShow finished
+264.1094 	EXP 	fixCross2: autoDraw = False
+264.1094 	EXP 	movieToShow: autoDraw = False
+264.1094 	EXP 	answerPrompt: autoDraw = True
+264.1094 	EXP 	getAnswer: autoDraw = True
+264.8344 	DATA 	Keypress: c
+265.0158 	DATA 	Keypress: r
+265.5826 	DATA 	Keypress: u
+265.9338 	DATA 	Keypress: s
+266.9492 	DATA 	Keypress: t
+267.8163 	DATA 	Keypress: return
+267.8274 	EXP 	New trial (rep=0, index=35): OrderedDict([('Audio_Only_Files', 'bail.wav'), ('Video_Files', 'bail.mpg'), ('Original_Word_List', 'bail'), ('noiseLevelCode', 3), ('conditionCodes', 'A'), ('noiseLevelFile1', 'Pink_Noise_3_1.wav'), ('noiseLevelFile2', 'Pink_Noise_3_2.wav')])
+267.8424 	EXP 	answerPrompt: autoDraw = False
+267.8424 	EXP 	getAnswer: autoDraw = False
+267.8424 	EXP 	fixCross: autoDraw = True
+269.1784 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='bail.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+269.3176 	EXP 	Set  sound=[[ 0.00000000e+00  0.00000000e+00]
+ [-3.05175781e-05  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00]
+ ...
+ [ 1.28173828e-03  1.40380859e-03]
+ [ 7.32421875e-04  7.62939453e-04]
+ [ 6.40869141e-04  6.71386719e-04]]
+269.3198 	EXP 	Sound  stopped
+269.3206 	EXP 	Sound  started
+269.3424 	EXP 	fixCross: autoDraw = False
+269.3424 	EXP 	fixCross: autoDraw = False
+269.3424 	EXP 	movieToShow: autoLog = True
+269.3424 	EXP 	movieToShow: movie = 'bail.mpg'
+269.3424 	EXP 	movieToShow: size = array([0., 0.])
+269.3424 	EXP 	movieToShow: ori = 0.0
+269.3424 	EXP 	fixCross2: autoDraw = True
+269.3424 	EXP 	movieToShow: autoDraw = True
+270.7094 	EXP 	Set movieToShow finished
+270.7260 	EXP 	fixCross2: autoDraw = False
+270.7260 	EXP 	movieToShow: autoDraw = False
+270.7260 	EXP 	answerPrompt: autoDraw = True
+270.7260 	EXP 	getAnswer: autoDraw = True
+270.9993 	DATA 	Keypress: b
+271.3157 	DATA 	Keypress: a
+271.7825 	DATA 	Keypress: i
+271.8990 	DATA 	Keypress: l
+273.1281 	EXP 	New trial (rep=0, index=36): OrderedDict([('Audio_Only_Files', 'cycle.wav'), ('Video_Files', 'cycle.mpg'), ('Original_Word_List', 'cycle'), ('noiseLevelCode', 1), ('conditionCodes', 'A'), ('noiseLevelFile1', 'Pink_Noise_1_1.wav'), ('noiseLevelFile2', 'Pink_Noise_1_2.wav')])
+273.1321 	DATA 	Keypress: return
+273.1425 	EXP 	answerPrompt: autoDraw = False
+273.1425 	EXP 	getAnswer: autoDraw = False
+273.1425 	EXP 	fixCross: autoDraw = True
+274.4786 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='cycle.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+274.6225 	EXP 	Set  sound=[[ 0.          0.        ]
+ [ 0.          0.        ]
+ [ 0.          0.        ]
+ ...
+ [-0.00180054 -0.0017395 ]
+ [-0.00177002 -0.00186157]
+ [-0.00112915 -0.00134277]]
+274.6249 	EXP 	Sound  stopped
+274.6254 	EXP 	Sound  started
+274.6423 	EXP 	fixCross: autoDraw = False
+274.6423 	EXP 	fixCross: autoDraw = False
+274.6423 	EXP 	movieToShow: autoLog = True
+274.6423 	EXP 	movieToShow: movie = 'cycle.mpg'
+274.6423 	EXP 	movieToShow: size = array([0., 0.])
+274.6423 	EXP 	movieToShow: ori = 0.0
+274.6423 	EXP 	fixCross2: autoDraw = True
+274.6423 	EXP 	movieToShow: autoDraw = True
+275.7281 	WARNING 	1.0693282983265817: Video catchup needed, advancing self._nextFrameT from 1.001 to 1.0343666666666667
+276.0095 	EXP 	Set movieToShow finished
+276.0423 	EXP 	fixCross2: autoDraw = False
+276.0423 	EXP 	movieToShow: autoDraw = False
+276.0423 	EXP 	answerPrompt: autoDraw = True
+276.0423 	EXP 	getAnswer: autoDraw = True
+276.9327 	DATA 	Keypress: c
+277.1330 	DATA 	Keypress: y
+277.3504 	DATA 	Keypress: c
+277.6655 	DATA 	Keypress: l
+278.4845 	DATA 	Keypress: e
+279.4608 	EXP 	New trial (rep=0, index=37): OrderedDict([('Audio_Only_Files', 'boil.wav'), ('Video_Files', 'boil.mpg'), ('Original_Word_List', 'boil'), ('noiseLevelCode', 1), ('conditionCodes', 'A'), ('noiseLevelFile1', 'Pink_Noise_1_1.wav'), ('noiseLevelFile2', 'Pink_Noise_1_2.wav')])
+279.4646 	DATA 	Keypress: return
+279.4760 	EXP 	answerPrompt: autoDraw = False
+279.4760 	EXP 	getAnswer: autoDraw = False
+279.4760 	EXP 	fixCross: autoDraw = True
+280.8114 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='boil.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+280.9620 	EXP 	Set  sound=[[ 0.00000000e+00  0.00000000e+00]
+ [-3.05175781e-05  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00]
+ ...
+ [ 2.74658203e-03  2.71606445e-03]
+ [ 2.77709961e-03  2.71606445e-03]
+ [ 2.65502930e-03  2.56347656e-03]]
+280.9642 	EXP 	Sound  stopped
+280.9653 	EXP 	Sound  started
+280.9766 	EXP 	fixCross: autoDraw = False
+280.9766 	EXP 	fixCross: autoDraw = False
+280.9766 	EXP 	movieToShow: autoLog = True
+280.9766 	EXP 	movieToShow: movie = 'boil.mpg'
+280.9766 	EXP 	movieToShow: size = array([0., 0.])
+280.9766 	EXP 	movieToShow: ori = 0.0
+280.9766 	EXP 	fixCross2: autoDraw = True
+280.9766 	EXP 	movieToShow: autoDraw = True
+282.3425 	EXP 	Set movieToShow finished
+282.3594 	EXP 	fixCross2: autoDraw = False
+282.3594 	EXP 	movieToShow: autoDraw = False
+282.3594 	EXP 	answerPrompt: autoDraw = True
+282.3594 	EXP 	getAnswer: autoDraw = True
+282.9827 	DATA 	Keypress: b
+283.2999 	DATA 	Keypress: o
+283.3841 	DATA 	Keypress: i
+283.6661 	DATA 	Keypress: l
+285.4670 	DATA 	Keypress: return
+285.4791 	EXP 	New trial (rep=0, index=38): OrderedDict([('Audio_Only_Files', 'fight.wav'), ('Video_Files', 'fight.mpg'), ('Original_Word_List', 'fight'), ('noiseLevelCode', 5), ('conditionCodes', 'A'), ('noiseLevelFile1', 'Pink_Noise_5_1.wav'), ('noiseLevelFile2', 'Pink_Noise_5_2.wav')])
+285.4927 	EXP 	answerPrompt: autoDraw = False
+285.4927 	EXP 	getAnswer: autoDraw = False
+285.4927 	EXP 	fixCross: autoDraw = True
+286.8288 	EXP 	Created movieToShow = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='fight.mpg', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movieToShow', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=method-wrapper(...), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+287.1074 	EXP 	window1: mouseVisible = True
