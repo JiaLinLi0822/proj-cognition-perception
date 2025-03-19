@@ -38,5 +38,6 @@ If you want to reproduce the correlation matrix, running the `analyze_corr.R` an
 
 
 
-### Plot the data
+### Plot the results
 
+If you want to explicitly see the correlation results with color plot, run the `plot_corrMat.py`. Then go to the Figure folder, you will see the correlation matrix, correlation p-value matrix, sample size matrix and [ACER α matrix](https://journals.sagepub.com/doi/full/10.1177/01466216221108131).
