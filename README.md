@@ -26,3 +26,15 @@ Change these two paths to your own local path and simply run the script, you can
 
 
 
+### Analyze the data
+
+After preprocessing the data, we want to further analyze the data. 
+
+If you want to reproduce the correlation matrix, running the `analyze_corr.R` and go to the `./data/clean data/summary`, you will get three files:
+
+1. CorMat_pValue.csv save the p-value between two task
+2. CorMat_rValue.csv save the correlation coefficient between two task
+3. rawData.csv save some specific columns from the Summary.csv file above
+
+
+

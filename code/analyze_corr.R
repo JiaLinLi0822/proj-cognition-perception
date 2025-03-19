@@ -4,8 +4,8 @@ library(psych) #corr.test
 library(RColorBrewer)
 library(xlsx)
 library(rstatix) # cor_mat, cor_pmat
-# Loading Data
 
+# Loading Data
 Data <- read.csv("/Users/lijialin/Downloads/Cognition Project/data/clean data/Summary.csv")
 
 modelfitting <- read.csv('/Users/lijialin/Downloads/Cognition Project/estimatedparas.csv')
@@ -34,11 +34,11 @@ Data$LocalizationA <- 1/Data$LocalizationA
 Data$LocalizationV <- 1/Data$LocalizationV
 Data$Trail <- 1/Data$Trail
 
-# 计算均值和标准差
+# compute the mean and standard deviation of each column
 means <- colMeans(Data, na.rm = TRUE)
 std_devs <- apply(Data, 2, sd, na.rm = TRUE)
 
-# 删除超过3个标准差的数据，仅对数值型列操作
+# exclude the outliers(above 3 standard deviations)
 for (i in 1:ncol(Data)) {
   if (is.numeric(Data[, i])) {
     lower_bound <- means[i] - 3 * std_devs[i]
@@ -47,16 +47,13 @@ for (i in 1:ncol(Data)) {
   }
 }
 
-
 # Z score all data
 # Data <- as.data.frame(scale(Data))
-exclude_columns <- c("Pcommon", "sigmaU", "sigmaD") # 不需要标准化的列
-Data_scaled <- Data # 创建副本
+exclude_columns <- c("Pcommon", "sigmaU", "sigmaD")
+Data_scaled <- Data
 
-# 找出需要标准化的列
+# normalize the data
 columns_to_scale <- setdiff(names(Data), exclude_columns)
-
-# 对指定列进行标准化
 Data_scaled[columns_to_scale] <- scale(Data[columns_to_scale])
 Data <- Data_scaled
 
