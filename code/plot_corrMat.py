@@ -12,6 +12,47 @@ import statsmodels.api as sm
 from matplotlib.colors import LinearSegmentedColormap
 sns.set()
 
+def compute_RAC(observed_rho, max_rho):
+    """
+    Compute Attenuation-Corrected Correlation (RAC)
+    RAC = observed correlation / max possible correlation
+    
+    :param observed_rho: Observed item-score Pearson correlation
+    :param max_rho: Maximum possible correlation in the dataset
+    :return: Attenuation-Corrected Correlation (RAC)
+    """
+    return observed_rho / max_rho if max_rho != 0 else 0  # Avoid division by zero
+
+def compute_ACER_alpha(data):
+    """
+    Compute Attenuation-Corrected Cronbach’s Alpha (ACER Alpha)
+    
+    Formula:
+    α_RAC = (k / (k - 1)) * (1 - (sum(σ²_i) / (sum(σ_i * RAC_i))²))
+    
+    :param data: A 2D numpy array where rows are participants and columns are test items
+    :return: ACER Alpha value
+    """
+    k = data.shape[1]  # Number of items in the test
+    item_variances = np.var(data, axis=0, ddof=1)  # Compute variance for each item (unbiased estimate)
+    total_variance = np.var(np.sum(data, axis=1), ddof=1)  # Compute total score variance
+
+    # Compute item-total correlations (Pearson correlation between each item and total score)
+    item_score_corr = np.array([
+        np.corrcoef(data[:, i], np.sum(data, axis=1))[0, 1] for i in range(k)
+    ])
+
+    # Determine the maximum possible correlation in the dataset
+    max_rho = np.max(item_score_corr)  # Approximate max correlation (can be refined)
+
+    # Compute RAC for each item
+    RAC = np.array([compute_RAC(r, max_rho) for r in item_score_corr])
+
+    # Compute ACER Alpha using the formula
+    acer_alpha = (k / (k - 1)) * (1 - np.sum(item_variances) / (np.sum(np.sqrt(item_variances) * RAC) ** 2))
+
+    return acer_alpha  # Return the ACER Alpha estimate
+
 # SIFI_Bi_A and SIFI_Bi_V are not included in the current data
 # PerceptualTask = ['SIFI_Uni_A', 'SIFI_Uni_V', 'SIFI_Bi_A','SIFI_Bi_V',
 #                   'Pitch', 'RhythmV', 'RhythmA', 'SRT_A', 'SRT_V', 'SRT_B', 'LocalizationA', 'LocalizationV',
@@ -24,16 +65,16 @@ PerceptualTask = ['TNJ_Uni_A', 'TNJ_Uni_V', 'TNJ_Bi_A','TNJ_Bi_V', 'TNJ_Bi',
                   'SpeechA', 'SpeechAV', 'AuditoryScore', 'VisualScore', 'PerceptualScore', 'Pcommon', 'sigmaU', 'sigmaD']
 CognitiveTask = ['Corsi', 'LetterNumberSpan', 'Cancellation', 'Raven', 'WordMemory', 'Trail', 'CognitiveScore']
 
-path = '/Users/lijialin/Downloads/Cognition Project/data/clean data/'
+path = '/Users/lijialin/Desktop/Research/proj-cognition-perception/data/clean data/'
 
 ### Modify Here!!!
-savefig_path = '/Users/lijialin/Downloads/Cognition Project/Figure/Correlation/'
+savefig_path = '/Users/lijialin/Desktop/Research/proj-cognition-perception/Figure/Correlation/'
 os.makedirs(savefig_path, exist_ok=True)
-savefig_path2 = '/Users/lijialin/Downloads/Cognition Project/Figure/LinearRegression/'
+savefig_path2 = '/Users/lijialin/Desktop/Research/proj-cognition-perception/Figure/LinearRegression/'
 os.makedirs(savefig_path2, exist_ok=True)
 
 ### Modify Here!!!
-data = pd.read_csv('/Users/lijialin/Downloads/Cognition Project/data/clean data/summary/rawData.csv')
+data = pd.read_csv('/Users/lijialin/Desktop/Research/proj-cognition-perception/data/clean data/summary/rawData.csv')
 # colors = ['rosybrown', 'lightcoral', 'indianred', 'brown', 'firebrick', 'maroon', 
 #          'sage', 'deepskyblue', 'cadetblue', 'lightslategrey', 'darkslategrey', 'slategrey', 
 #          'mediumslateblue', 'darkslateblue', 'fuchsia', 'magenta', 'black']
@@ -41,6 +82,7 @@ data = pd.read_csv('/Users/lijialin/Downloads/Cognition Project/data/clean data/
 CorMat = np.zeros((len(PerceptualTask), len(CognitiveTask)))
 CorMatp = np.zeros((len(PerceptualTask), len(CognitiveTask)))
 CorMatn = np.zeros((len(PerceptualTask), len(CognitiveTask)))
+acerMat = np.zeros((len(PerceptualTask), len(CognitiveTask)))
 BetaMat = np.zeros((len(PerceptualTask), len(CognitiveTask)))
 RegressMatp = np.zeros((len(PerceptualTask), len(CognitiveTask)))
 
@@ -68,6 +110,8 @@ for i in range(len(PerceptualTask)):
         df = pd.DataFrame({'x': x, 'y': y})
         df.dropna(inplace=True, axis= 0)
         correlation_coefficient, p_value = stats.pearsonr(df['x'], df['y'])
+        acer = compute_ACER_alpha(np.concatenate((df['x'].values.reshape(-1, 1), df['y'].values.reshape(-1, 1)), axis=1))
+        acerMat[i, j] = acer
         CorMat[i, j] = correlation_coefficient
         CorMatp[i, j] = p_value
         CorMatn[i, j] = df.shape[0]
@@ -124,6 +168,12 @@ plt.figure(figsize=(15, 10))
 sns.heatmap(RegressMatp, cmap= cmap, annot=True, fmt=".4f", annot_kws={"size": 10}, xticklabels=CognitiveTask, yticklabels=PerceptualTask)
 plt.title('p-value Matrix')
 plt.savefig(savefig_path2 + '/' + 'Regress p-value Matrix.png', dpi=300)
+plt.close()
+
+plt.figure(figsize=(15, 10))
+sns.heatmap(acerMat, cmap="coolwarm", annot=True, fmt=".3f", annot_kws={"size": 10}, xticklabels=CognitiveTask, yticklabels=PerceptualTask)
+plt.title('ACER Alpha Matrix')
+plt.savefig(savefig_path + '/' + 'ACER Alpha Matrix.png', dpi=300)
 plt.close()
 
 # for i in range(len(CognitiveTask)):

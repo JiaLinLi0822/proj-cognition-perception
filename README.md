@@ -38,3 +38,5 @@ If you want to reproduce the correlation matrix, running the `analyze_corr.R` an
 
 
 
+### Plot the data
+
